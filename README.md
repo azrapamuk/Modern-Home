@@ -1,3 +1,3 @@
-# Namjestaj-Shop
+# Modern home
 
-Aplikacija za online prodaju namještaja
+Aplikacija za prodaju namještaja
