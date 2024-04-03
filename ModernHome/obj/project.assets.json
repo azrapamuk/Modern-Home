@@ -4535,11 +4535,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alilj\\Desktop\\TEMP\\ModernHome\\ModernHome.csproj",
+      "projectUniqueName": "C:\\Users\\alilj\\Desktop\\TEMP\\Tim32_Modern_home\\ModernHome\\ModernHome.csproj",
       "projectName": "ModernHome",
-      "projectPath": "C:\\Users\\alilj\\Desktop\\TEMP\\ModernHome\\ModernHome.csproj",
+      "projectPath": "C:\\Users\\alilj\\Desktop\\TEMP\\Tim32_Modern_home\\ModernHome\\ModernHome.csproj",
       "packagesPath": "C:\\Users\\alilj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alilj\\Desktop\\TEMP\\ModernHome\\obj\\",
+      "outputPath": "C:\\Users\\alilj\\Desktop\\TEMP\\Tim32_Modern_home\\ModernHome\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alilj\\AppData\\Roaming\\NuGet\\NuGet.Config",

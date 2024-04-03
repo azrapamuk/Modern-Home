@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5d+Q37TrTJ4f4KSw7RjOXdMOgZnwQvJiG3NBdgG79OGtvf3QNJd30alnC7Tgiutz3ygXDRUVHuzEuLAq2V1Oyg==",
+  "dgSpecHash": "ON8dg0EErYskrVo0MZp0RDGiGflJjBAX5cemgbjdEqvjl6kFyjyoD0TdtxPJcNQUOtyXjYjs8Xiuq/b5EXXQOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alilj\\Desktop\\TEMP\\ModernHome\\ModernHome.csproj",
+  "projectFilePath": "C:\\Users\\alilj\\Desktop\\TEMP\\Tim32_Modern_home\\ModernHome\\ModernHome.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alilj\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\alilj\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
