@@ -36,9 +36,9 @@
 
 ![rating](https://github.com/OOAD-2023-2024/Tim32_Modern_home/assets/148446321/4bc3f831-cb3d-4056-a6f1-acd37d3ddd11)
 
--Homepage i pregled artikala(zaposlenik)
+-Homepage i pregled artikala (zaposlenik)
 
-![staff](https://github.com/OOAD-2023-2024/Tim32_Modern_home/assets/148446321/0574f124-9d36-4029-9ae7-0feefffa6af5)
+![staff](https://github.com/OOAD-2023-2024/Tim32_Modern_home/assets/148446321/d3d1502e-7e81-4f94-9f2b-edd8d50307bb)
 
 -Homepage (administrator)
 
@@ -46,7 +46,7 @@
 
 -Uređivanje artikla
 
-![editproduct](https://github.com/OOAD-2023-2024/Tim32_Modern_home/assets/148446321/e5696803-1a5e-4aad-9a98-997d5e0cad7c)
+![editproduct](https://github.com/OOAD-2023-2024/Tim32_Modern_home/assets/148446321/acaa414c-5674-4564-bb5e-99c1652444fc)
 
 -Dodavanje novog artikla
 
