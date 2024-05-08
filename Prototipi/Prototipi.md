@@ -16,6 +16,10 @@
 
 ![signup](https://github.com/OOAD-2023-2024/Tim32_Modern_home/assets/148446321/5f054baa-d0eb-4a39-9801-711c755bc779)
 
+-Contact & About us
+
+![contactaboutus](https://github.com/OOAD-2023-2024/Tim32_Modern_home/assets/148446321/a0dd23f0-60de-4996-9192-971ae9dfd006)
+
 -Pregled svih artikala
 
 ![products](https://github.com/OOAD-2023-2024/Tim32_Modern_home/assets/148446321/7ccff450-a379-4605-95d7-ade2e54ba031)
