@@ -1,22 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alilj\\Desktop\\TEMP\\Tim32_Modern_home\\ModernHome\\",
+  "WorkspaceRootPath": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\temp\\tim32_modern_home\\modernhome\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\amil\\desktop\\tim32_modern_home\\modernhome\\models\\dimenzije.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:models\\dimenzije.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\temp\\tim32_modern_home\\modernhome\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\amil\\desktop\\tim32_modern_home\\modernhome\\models\\stavkanarudzbe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:models\\stavkanarudzbe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\temp\\tim32_modern_home\\modernhome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\amil\\desktop\\tim32_modern_home\\modernhome\\models\\ocjena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:models\\ocjena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\temp\\tim32_modern_home\\modernhome\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\amil\\desktop\\tim32_modern_home\\modernhome\\models\\narudzba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:models\\narudzba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\amil\\desktop\\tim32_modern_home\\modernhome\\models\\korpa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:models\\korpa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\amil\\desktop\\tim32_modern_home\\modernhome\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\amil\\desktop\\tim32_modern_home\\modernhome\\models\\kartica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:models\\kartica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\amil\\desktop\\tim32_modern_home\\modernhome\\models\\artikal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:models\\artikal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\amil\\desktop\\tim32_modern_home\\modernhome\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,52 +51,119 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\TEMP\\Tim32_Modern_home\\ModernHome\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\alilj\\Desktop\\TEMP\\Tim32_Modern_home\\ModernHome\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-03T15:00:04.612Z",
+              "Title": "Dimenzije.cs",
+              "DocumentMoniker": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\Models\\Dimenzije.cs",
+              "RelativeDocumentMoniker": "Models\\Dimenzije.cs",
+              "ToolTip": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\Models\\Dimenzije.cs",
+              "RelativeToolTip": "Models\\Dimenzije.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T16:36:26.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\TEMP\\Tim32_Modern_home\\ModernHome\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\alilj\\Desktop\\TEMP\\Tim32_Modern_home\\ModernHome\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-03T14:49:59.923Z",
+              "DocumentIndex": 7,
+              "Title": "Artikal.cs",
+              "DocumentMoniker": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\Models\\Artikal.cs",
+              "RelativeDocumentMoniker": "Models\\Artikal.cs",
+              "ToolTip": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\Models\\Artikal.cs",
+              "RelativeToolTip": "Models\\Artikal.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwBAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T16:26:02.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Kartica.cs",
+              "DocumentMoniker": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\Models\\Kartica.cs",
+              "RelativeDocumentMoniker": "Models\\Kartica.cs",
+              "ToolTip": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\Models\\Kartica.cs",
+              "RelativeToolTip": "Models\\Kartica.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwA0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:36:02.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Korisnik.cs",
+              "DocumentMoniker": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\Models\\Korisnik.cs",
+              "RelativeDocumentMoniker": "Models\\Korisnik.cs",
+              "ToolTip": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\Models\\Korisnik.cs",
+              "RelativeToolTip": "Models\\Korisnik.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:29:21.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Korpa.cs",
+              "DocumentMoniker": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\Models\\Korpa.cs",
+              "RelativeDocumentMoniker": "Models\\Korpa.cs",
+              "ToolTip": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\Models\\Korpa.cs",
+              "RelativeToolTip": "Models\\Korpa.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAYwAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:36:32.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Narudzba.cs",
+              "DocumentMoniker": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\Models\\Narudzba.cs",
+              "RelativeDocumentMoniker": "Models\\Narudzba.cs",
+              "ToolTip": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\Models\\Narudzba.cs",
+              "RelativeToolTip": "Models\\Narudzba.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwA4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:43:34.855Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\TEMP\\Tim32_Modern_home\\ModernHome\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\alilj\\Desktop\\TEMP\\Tim32_Modern_home\\ModernHome\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Ocjena.cs",
+              "DocumentMoniker": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\Models\\Ocjena.cs",
+              "RelativeDocumentMoniker": "Models\\Ocjena.cs",
+              "ToolTip": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\Models\\Ocjena.cs",
+              "RelativeToolTip": "Models\\Ocjena.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAuwAwAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T14:49:52.92Z"
+              "WhenOpened": "2024-05-17T16:17:14.391Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\TEMP\\Tim32_Modern_home\\ModernHome\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\alilj\\Desktop\\TEMP\\Tim32_Modern_home\\ModernHome\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-03T14:49:42.775Z"
+              "DocumentIndex": 1,
+              "Title": "StavkaNarudzbe.cs",
+              "DocumentMoniker": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\Models\\StavkaNarudzbe.cs",
+              "RelativeDocumentMoniker": "Models\\StavkaNarudzbe.cs",
+              "ToolTip": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\Models\\StavkaNarudzbe.cs",
+              "RelativeToolTip": "Models\\StavkaNarudzbe.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAcwAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T16:42:11.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAkwB0AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T16:52:19.51Z",
+              "EditorCaption": ""
             }
           ]
         }
