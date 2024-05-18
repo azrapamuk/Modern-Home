@@ -11,7 +11,8 @@ namespace ModernHome.Models
         public int CVV { get; set; }
         public DateTime datumIsteka { get; set; }
         [ForeignKey("Korisnik")]
-        public int korisnikID { get; set; }
+        public int Idkorisnik { get; set; }
+        public Korisnik korisnik { get; set; }
         public Kartica() { }
     }
 }

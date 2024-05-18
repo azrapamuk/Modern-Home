@@ -14,7 +14,8 @@ namespace ModernHome.Models
         public int kolicina { get; set; }
         public double cijena { get; set; }
         [ForeignKey("Dimenzije")]
-        public int dimenzijeID { get; set; }
+        public int Iddimenzije { get; set; }
+        public Dimenzije dimenzije { get; set; }
         public Artikal() { }
 
     }

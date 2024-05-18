@@ -8,11 +8,13 @@ namespace ModernHome.Models
         [Key]
         public int Id { get; set; }
         [ForeignKey("Artikal")]
-        public int artikalID { get; set; }
+        public int Idartikal { get; set; }
+        public Artikal artikal { get; set; }
         public int kolicina { get; set; }
         public double cijena { get; set; }
         [ForeignKey("Korpa")]
-        public int korpaID { get; set; }
+        public int Idkorpa { get; set; }
+        public Korpa korpa { get; set; }
         public StavkaNarudzbe() { }
 
     }

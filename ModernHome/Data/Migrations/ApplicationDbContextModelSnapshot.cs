@@ -234,13 +234,16 @@ namespace ModernHome.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("Iddimenzije")
+                        .HasColumnType("int");
+
                     b.Property<int>("boja")
                         .HasColumnType("int");
 
                     b.Property<double>("cijena")
                         .HasColumnType("float");
 
-                    b.Property<int>("dimenzijeID")
+                    b.Property<int>("dimenzijeId")
                         .HasColumnType("int");
 
                     b.Property<int>("kolicina")
@@ -255,6 +258,8 @@ namespace ModernHome.Data.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("dimenzijeId");
+
                     b.ToTable("Artikal", (string)null);
                 });
 
@@ -266,7 +271,7 @@ namespace ModernHome.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<double>("dužina")
+                    b.Property<double>("duzina")
                         .HasColumnType("float");
 
                     b.Property<double>("sirina")
@@ -291,16 +296,21 @@ namespace ModernHome.Data.Migrations
                     b.Property<int>("CVV")
                         .HasColumnType("int");
 
+                    b.Property<int>("Idkorisnik")
+                        .HasColumnType("int");
+
                     b.Property<int>("brojKartice")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("datumIsteka")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("korisnikID")
-                        .HasColumnType("int");
+                    b.Property<string>("korisnikId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("korisnikId");
 
                     b.ToTable("Kartica", (string)null);
                 });
@@ -313,13 +323,18 @@ namespace ModernHome.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("korisnikID")
+                    b.Property<int>("Idkorisnik")
                         .HasColumnType("int");
+
+                    b.Property<string>("korisnikId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<double>("ukupanIznos")
                         .HasColumnType("float");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("korisnikId");
 
                     b.ToTable("Korpa", (string)null);
                 });
@@ -332,10 +347,16 @@ namespace ModernHome.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("korisnikID")
+                    b.Property<int>("Idkorisnik")
                         .HasColumnType("int");
 
-                    b.Property<int>("korpaID")
+                    b.Property<int>("Idkorpa")
+                        .HasColumnType("int");
+
+                    b.Property<string>("korisnikId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("korpaId")
                         .HasColumnType("int");
 
                     b.Property<bool>("stanjeIsporuke")
@@ -345,6 +366,10 @@ namespace ModernHome.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("korisnikId");
+
+                    b.HasIndex("korpaId");
 
                     b.ToTable("Narudzba", (string)null);
                 });
@@ -357,17 +382,22 @@ namespace ModernHome.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("Idkorisnik")
+                        .HasColumnType("int");
+
                     b.Property<string>("komentar")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("korisnikID")
-                        .HasColumnType("int");
+                    b.Property<string>("korisnikId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("ocjena")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("korisnikId");
 
                     b.ToTable("Ocjena", (string)null);
                 });
@@ -380,7 +410,13 @@ namespace ModernHome.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("artikalID")
+                    b.Property<int>("Idartikal")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Idkorpa")
+                        .HasColumnType("int");
+
+                    b.Property<int>("artikalId")
                         .HasColumnType("int");
 
                     b.Property<double>("cijena")
@@ -389,10 +425,14 @@ namespace ModernHome.Data.Migrations
                     b.Property<int>("kolicina")
                         .HasColumnType("int");
 
-                    b.Property<int>("korpaID")
+                    b.Property<int>("korpaId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("artikalId");
+
+                    b.HasIndex("korpaId");
 
                     b.ToTable("StavkaNarudzbe", (string)null);
                 });
@@ -469,6 +509,80 @@ namespace ModernHome.Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("ModernHome.Models.Artikal", b =>
+                {
+                    b.HasOne("ModernHome.Models.Dimenzije", "dimenzije")
+                        .WithMany()
+                        .HasForeignKey("dimenzijeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("dimenzije");
+                });
+
+            modelBuilder.Entity("ModernHome.Models.Kartica", b =>
+                {
+                    b.HasOne("ModernHome.Models.Korisnik", "korisnik")
+                        .WithMany()
+                        .HasForeignKey("korisnikId");
+
+                    b.Navigation("korisnik");
+                });
+
+            modelBuilder.Entity("ModernHome.Models.Korpa", b =>
+                {
+                    b.HasOne("ModernHome.Models.Korisnik", "korisnik")
+                        .WithMany()
+                        .HasForeignKey("korisnikId");
+
+                    b.Navigation("korisnik");
+                });
+
+            modelBuilder.Entity("ModernHome.Models.Narudzba", b =>
+                {
+                    b.HasOne("ModernHome.Models.Korisnik", "korisnik")
+                        .WithMany()
+                        .HasForeignKey("korisnikId");
+
+                    b.HasOne("ModernHome.Models.Korpa", "korpa")
+                        .WithMany()
+                        .HasForeignKey("korpaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("korisnik");
+
+                    b.Navigation("korpa");
+                });
+
+            modelBuilder.Entity("ModernHome.Models.Ocjena", b =>
+                {
+                    b.HasOne("ModernHome.Models.Korisnik", "korisnik")
+                        .WithMany()
+                        .HasForeignKey("korisnikId");
+
+                    b.Navigation("korisnik");
+                });
+
+            modelBuilder.Entity("ModernHome.Models.StavkaNarudzbe", b =>
+                {
+                    b.HasOne("ModernHome.Models.Artikal", "artikal")
+                        .WithMany()
+                        .HasForeignKey("artikalId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ModernHome.Models.Korpa", "korpa")
+                        .WithMany()
+                        .HasForeignKey("korpaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("artikal");
+
+                    b.Navigation("korpa");
                 });
 
             modelBuilder.Entity("ModernHome.Models.Korisnik", b =>

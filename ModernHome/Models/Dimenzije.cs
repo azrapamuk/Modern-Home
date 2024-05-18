@@ -8,7 +8,7 @@ namespace ModernHome.Models
         public int Id { get; set; }
         public double visina { get; set; }
         public double sirina { get; set; }
-        public double dužina { get; set; }
+        public double duzina { get; set; }
         public Dimenzije() { }
     }
 }
