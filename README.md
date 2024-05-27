@@ -43,4 +43,4 @@ Modern Home je sveobuhvatna aplikacija za prodaju namještaja koja omogućava ko
     <img src="https://github.com/OOAD-2023-2024/Tim32_Modern_home/assets/148446321/686e1dd5-f402-464e-9e5a-dbee41c9fe17" width="300" alt="etflogo">
 </div>
 
-©Copyright 2024. Elektroteknički fakultet Sarajevo
+©Copyright 2024. Elektrotehnički fakultet Sarajevo
