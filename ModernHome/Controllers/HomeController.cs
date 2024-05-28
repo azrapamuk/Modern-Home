@@ -17,8 +17,13 @@ namespace ModernHome.Controllers
         {
             return View();
         }
-
+    
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult Korpa()
         {
             return View();
         }

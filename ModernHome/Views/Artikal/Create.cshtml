@@ -1,0 +1,58 @@
+﻿@model ModernHome.Models.Artikal
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Artikal</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="naziv" class="control-label"></label>
+                <input asp-for="naziv" class="form-control" />
+                <span asp-validation-for="naziv" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tip" class="control-label"></label>
+                <select asp-for="tip" class="form-control"></select>
+                <span asp-validation-for="tip" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="boja" class="control-label"></label>
+                <select asp-for="boja" class="form-control"></select>
+                <span asp-validation-for="boja" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="kolicina" class="control-label"></label>
+                <input asp-for="kolicina" class="form-control" />
+                <span asp-validation-for="kolicina" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="cijena" class="control-label"></label>
+                <input asp-for="cijena" class="form-control" />
+                <span asp-validation-for="cijena" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Iddimenzije" class="control-label"></label>
+                <input asp-for="Iddimenzije" class="form-control" />
+                <span asp-validation-for="Iddimenzije" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

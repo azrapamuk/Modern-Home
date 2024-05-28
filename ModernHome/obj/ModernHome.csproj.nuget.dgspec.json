@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\ModernHome.csproj": {}
+    "C:\\Users\\alilj\\Desktop\\projekatOOAD\\ModernHome\\ModernHome.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\ModernHome.csproj": {
+    "C:\\Users\\alilj\\Desktop\\projekatOOAD\\ModernHome\\ModernHome.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\ModernHome.csproj",
+        "projectUniqueName": "C:\\Users\\alilj\\Desktop\\projekatOOAD\\ModernHome\\ModernHome.csproj",
         "projectName": "ModernHome",
-        "projectPath": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\ModernHome.csproj",
-        "packagesPath": "C:\\Users\\Amil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\obj\\",
+        "projectPath": "C:\\Users\\alilj\\Desktop\\projekatOOAD\\ModernHome\\ModernHome.csproj",
+        "packagesPath": "C:\\Users\\alilj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alilj\\Desktop\\projekatOOAD\\ModernHome\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Amil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alilj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,6 +62,12 @@
               "version": "[8.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.2, )"
             }

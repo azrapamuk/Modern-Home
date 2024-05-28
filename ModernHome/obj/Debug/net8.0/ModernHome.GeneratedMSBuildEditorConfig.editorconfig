@@ -1,55 +1,183 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ModernHome
 build_property.RootNamespace = ModernHome
-build_property.ProjectDir = C:\Users\Amil\Desktop\Tim32_Modern_home\ModernHome\
+build_property.ProjectDir = C:\Users\alilj\Desktop\projekatOOAD\ModernHome\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Amil\Desktop\Tim32_Modern_home\ModernHome
+build_property.MSBuildProjectDirectory = C:\Users\alilj\Desktop\projekatOOAD\ModernHome
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Amil/Desktop/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Amil/Desktop/Tim32_Modern_home/ModernHome/Views/Home/Index.cshtml]
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Artikal/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWthbFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Artikal/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWthbFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Artikal/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWthbFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Artikal/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWthbFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Artikal/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWthbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Amil/Desktop/Tim32_Modern_home/ModernHome/Views/Home/Privacy.cshtml]
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Amil/Desktop/Tim32_Modern_home/ModernHome/Views/Shared/Error.cshtml]
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Kartica/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FydGljYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Kartica/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FydGljYVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Kartica/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FydGljYVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Kartica/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FydGljYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Kartica/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FydGljYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Korpa/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29ycGFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Korpa/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29ycGFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Korpa/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29ycGFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Korpa/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29ycGFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Korpa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29ycGFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Narudzba/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFydWR6YmFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Narudzba/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFydWR6YmFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Narudzba/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFydWR6YmFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Narudzba/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFydWR6YmFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Narudzba/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFydWR6YmFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Ocjena/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NqZW5hXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Ocjena/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NqZW5hXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Ocjena/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NqZW5hXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Ocjena/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NqZW5hXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Ocjena/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NqZW5hXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Amil/Desktop/Tim32_Modern_home/ModernHome/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Amil/Desktop/Tim32_Modern_home/ModernHome/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Amil/Desktop/Tim32_Modern_home/ModernHome/Views/_ViewImports.cshtml]
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/StavkaNarudzbe/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdmthTmFydWR6YmVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/StavkaNarudzbe/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdmthTmFydWR6YmVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/StavkaNarudzbe/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdmthTmFydWR6YmVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/StavkaNarudzbe/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdmthTmFydWR6YmVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/StavkaNarudzbe/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdmthTmFydWR6YmVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Amil/Desktop/Tim32_Modern_home/ModernHome/Views/_ViewStart.cshtml]
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Amil/Desktop/Tim32_Modern_home/ModernHome/Views/Shared/_Layout.cshtml]
+[C:/Users/alilj/Desktop/projekatOOAD/ModernHome/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ajyeqvw9sr
