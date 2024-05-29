@@ -7,6 +7,7 @@ namespace ModernHome.Models
     {
         [Key]
         public int Id { get; set; }
+        [EnumDataType(typeof(Ocjene))]
         public Ocjene ocjena {  get; set; }
         public string komentar {  get; set; }
         [ForeignKey("Korisnik")]

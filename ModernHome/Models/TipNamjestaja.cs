@@ -1,7 +1,22 @@
-﻿namespace ModernHome.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ModernHome.Models
 {
     public enum TipNamjestaja
     {
-        dvosjed, trosjed, krevet, stolica, fotelja, ugaona_garnitura, sto
+        [Display(Name = "Dvosjed")]
+        dvosjed,
+        [Display(Name = "Trosjed")]
+        trosjed,
+        [Display(Name = "Krevet")]
+        krevet,
+        [Display(Name = "Stolica")]
+        stolica,
+        [Display(Name = "Fotelja")]
+        fotelja,
+        [Display(Name = "Ugaona garnitura")]
+        ugaona_garnitura,
+        [Display(Name = "Sto")]
+        sto
     }
 }
