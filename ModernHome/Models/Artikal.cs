@@ -13,14 +13,15 @@ namespace ModernHome.Models
         public TipNamjestaja tip {  get; set; }
         [EnumDataType(typeof(Boje))]
         public Boje boja { get; set; }
+        [Range(0, int.MaxValue, ErrorMessage = "Količina mora biti cijeli pozitivan broj!")]
         public int kolicina { get; set; }
+        [Range(0, Double.MaxValue, ErrorMessage = "Cijena ne smije biti negativna!")]
         public double cijena { get; set; }
         [ForeignKey("Dimenzije")]
         public int Iddimenzije { get; set; }
         [EnumDataType(typeof(Dimenzije))]
         public Dimenzije dimenzije { get; set; }
+        public String slika { get; set; }
         public Artikal() { }
-        public String slika { get; set; }   
-
     }
 }

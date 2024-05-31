@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using ModernHome.Utility;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModernHome.Models
@@ -7,9 +9,15 @@ namespace ModernHome.Models
     {
         [Key]
         public int Id { get; set; }
+        [DisplayName("Broj Kartice")]
+        [RegularExpression(@"^\d{16}$", ErrorMessage = "Broj kartice mora sadržavati 16 cifara.")]
         public int brojKartice { get; set; }
+        [DisplayName("CVV")]
+        [RegularExpression(@"^\d{3}$", ErrorMessage = "Broj CVV mora sadržavati 3 cifare.")]
         public int CVV { get; set; }
-        public DateTime datumIsteka { get; set; }
+        [DisplayName("Datum isteka (mm/yyyy)")]
+        [ValidateDate]
+        public string datumIsteka { get; set; }
         [ForeignKey("Korisnik")]
         public int Idkorisnik { get; set; }
         public Korisnik korisnik { get; set; }
