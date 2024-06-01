@@ -1,8 +1,101 @@
 ﻿@{
     ViewData["Title"] = "ModernHome";
 }
-
 <div class="text-center">
     <h1 class="display-4">Dobrodošli</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+<div class="container">
+    <!-- Check out our products section -->
+    <section id="products" class="products-section text-left">
+        <div class="content">
+            <h1 style="font-style=italic">"Stvaramo udobnost, oblikujemo stil."</h1>
+            <p>Svi naši proizvodi izrađeni su od najkvalitetnijih materijala, pogodni za svaku namjenu</p>
+        </div>
+        <img src="~/images/product.jpg" alt="Products" class="img-fluid rounded">
+    </section>
+
+    <!-- About us section -->
+    <section id="aboutus" class="about-us-section text-right">
+        <div class="content">
+            <p style="font-size=23">
+               
+                <div style="text-align: center;">
+                    <h4>Dobrodošli u ModernHome, gde tradicija susreće savremeni dizajn.</h4>
+                </div>
+                <br />
+                Sa više od 30 godina iskustva u industriji nameštaja, ponosimo se dugogodišnjom tradicijom izrade visokokvalitetnih proizvoda. Naša posvećenost vrhunskom majstorstvu i upotrebi najkvalitetnijih materijala omogućava nam da kreiramo komade nameštaja koji ne samo da zadovoljavaju, već i nadmašuju očekivanja naših kupaca.
+                <br />
+                <h4> Kvalitet prije svega!</h4>
+                <br />
+                Vjerujemo da je kvalitet osnova svakog dobrog proizvoda. Naš tim stručnjaka pažljivo bira materijale i prati najnovije tehnologije i trendove u industriji, kako bismo vam pružili namještaj koji je istovremeno moderan, funkcionalan i dugotrajan. Svaki komad namještaja koji napusti našu proizvodnju prolazi strogu kontrolu kvaliteta, osiguravajući da svaki detalj bude besprijekorno izveden.
+
+            </p>
+        </div>
+        <img src="~/images/aboutus.jpeg" alt="About Us" class="img-fluid rounded">
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="contact-section text-left">
+        <div class="content">
+            <h2>Contact</h2>
+            <p>Telefon: +(387) 033 942 528</p>
+            <p>Email: info@modernhome.ba</p>
+            <p>Adresa: Aleja poštenih 32, Sarajevo, FBiH</p>
+        </div>
+        <img src="~/images/contact.jpg" alt="Contact" class="img-fluid rounded">
+    </section>
+</div>
+
+<style>
+    body {
+        background-color: #f5f5dc; /* Beige background for the entire page */
+    }
+
+    .container {
+        margin-top: 2%;
+    }
+
+    .products-section, .about-us-section, .contact-section {
+        padding: 5% 0;
+        background-color: #f5f5dc; /* Beige background for the sections */
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+        .products-section .content,
+        .contact-section .content {
+            position: absolute;
+            left: 5%;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 2;
+            color: #000;
+            width: 40%;
+        }
+
+        .about-us-section .content {
+            position: absolute;
+            right: 5%;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 2;
+            color: #000;
+            width: 40%;
+            text-align: right;
+        }
+
+    .img-fluid {
+        max-width: 55%; /* Adjust width as necessary */
+        height: auto;
+        border-radius: 15px; /* Rounded corners */
+        margin-left: 45%; /* Push image slightly to the left */
+        position: relative;
+        z-index: 1;
+    }
+
+    .about-us-section .img-fluid {
+        margin-left: 0;
+        margin-right: 45%;
+    }
+</style>

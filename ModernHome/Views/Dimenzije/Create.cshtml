@@ -1,0 +1,40 @@
+﻿@model ModernHome.Models.Dimenzije
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Dimenzije</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="visina" class="control-label"></label>
+                <input asp-for="visina" class="form-control" />
+                <span asp-validation-for="visina" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="sirina" class="control-label"></label>
+                <input asp-for="sirina" class="form-control" />
+                <span asp-validation-for="sirina" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="duzina" class="control-label"></label>
+                <input asp-for="duzina" class="form-control" />
+                <span asp-validation-for="duzina" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -10,6 +11,7 @@ using ModernHome.Models;
 
 namespace ModernHome.Controllers
 {
+    [Authorize]
     public class NarudzbaController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -20,6 +22,7 @@ namespace ModernHome.Controllers
         }
 
         // GET: Narudzba
+        [Authorize(Roles = "Administrator, Korisnik, Uposlenik")]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Narudzba.ToListAsync());
@@ -44,6 +47,7 @@ namespace ModernHome.Controllers
         }
 
         // GET: Narudzba/Create
+        [Authorize(Roles = "Administrator, Korisnik")]
         public IActionResult Create()
         {
             return View();
@@ -117,6 +121,7 @@ namespace ModernHome.Controllers
         }
 
         // GET: Narudzba/Delete/5
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)

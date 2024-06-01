@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -20,6 +21,7 @@ namespace ModernHome.Controllers
         }
 
         // GET: Artikal
+       // [Authorize(Roles = "Administrator, Korisnik")]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Artikal.ToListAsync());
@@ -44,6 +46,7 @@ namespace ModernHome.Controllers
         }
 
         // GET: Artikal/Create
+        [Authorize(Roles = "Administrator")]
         public IActionResult Create()
         {
             return View();
@@ -54,7 +57,7 @@ namespace ModernHome.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,naziv,tip,boja,kolicina,cijena,Iddimenzije")] Artikal artikal)
+        public async Task<IActionResult> Create([Bind("Id,naziv,tip,boja,kolicina,cijena,Iddimenzije,slika")] Artikal artikal)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +89,7 @@ namespace ModernHome.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,naziv,tip,boja,kolicina,cijena,Iddimenzije")] Artikal artikal)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,naziv,tip,boja,kolicina,cijena,Iddimenzije,slika")] Artikal artikal)
         {
             if (id != artikal.Id)
             {

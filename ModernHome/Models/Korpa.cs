@@ -13,7 +13,7 @@ namespace ModernHome.Models
         public double ukupanIznos { get; set; }
         [ForeignKey("Korisnik")]
         public int Idkorisnik { get; set; }
-        public Korisnik korisnik { get; set; }
+        //public Korisnik korisnik { get; set; }
         public Korpa() { }
 
     }

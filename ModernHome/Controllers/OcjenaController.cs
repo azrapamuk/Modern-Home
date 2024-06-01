@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -44,6 +45,7 @@ namespace ModernHome.Controllers
         }
 
         // GET: Ocjena/Create
+        [Authorize(Roles = "Administrator, Korisnik")]
         public IActionResult Create()
         {
             return View();

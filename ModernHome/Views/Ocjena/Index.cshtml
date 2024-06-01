@@ -37,8 +37,11 @@
                 @Html.DisplayFor(modelItem => item.Idkorisnik)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    @if (User.IsInRole("Administrator, Korisnik"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> <nobr>|</nobr>
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> <nobr>|</nobr>
+                    }
                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
             </td>
         </tr>

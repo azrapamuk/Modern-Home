@@ -20,7 +20,7 @@ namespace ModernHome.Models
         public string datumIsteka { get; set; }
         [ForeignKey("Korisnik")]
         public int Idkorisnik { get; set; }
-        public Korisnik korisnik { get; set; }
+        //public Korisnik korisnik { get; set; }
         public Kartica() { }
     }
 }

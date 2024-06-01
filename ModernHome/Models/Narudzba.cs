@@ -9,12 +9,12 @@ namespace ModernHome.Models
         public int Id { get; set; }
         [ForeignKey("Korisnik")]
         public int Idkorisnik { get; set; }
-        public Korisnik korisnik { get; set; }
+        //public Korisnik korisnik { get; set; }
         public DateTime vrijemeNarudzbe {  get; set; }
         public bool stanjeIsporuke { get; set; }
         [ForeignKey("Korpa")]
         public int Idkorpa { get; set; }
-        public Korpa korpa { get; set; }
+        //public Korpa korpa { get; set; }
         public Narudzba() { }
 
     }

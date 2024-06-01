@@ -12,7 +12,7 @@ namespace ModernHome.Models
         public string komentar {  get; set; }
         [ForeignKey("Korisnik")]
         public int Idkorisnik { get; set; }
-        public Korisnik korisnik { get; set; }
+        //public Korisnik korisnik { get; set; }
         public Ocjena() { }
 
     }

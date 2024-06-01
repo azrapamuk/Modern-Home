@@ -22,6 +22,7 @@ namespace ModernHome.Models
         [Display(Name = "Zelena boja")]
         zelena,
         [Display(Name = "Narandžasta boja")]
-        narandžasta 
+        narandžasta
+
     }
 }
