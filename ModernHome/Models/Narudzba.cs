@@ -8,7 +8,7 @@ namespace ModernHome.Models
         [Key]
         public int Id { get; set; }
         [ForeignKey("Korisnik")]
-        public int Idkorisnik { get; set; }
+        public String Idkorisnik { get; set; }
         //public Korisnik korisnik { get; set; }
         public DateTime vrijemeNarudzbe {  get; set; }
         public bool stanjeIsporuke { get; set; }

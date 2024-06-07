@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Gn4bK01mjVXOQ2Vo58X7cDnAVF/uSsn1iUXRqL36sjQ=",
+  "Hash": "8cP17eLo5QEg1MHl+6adUxzXEXD3ZhKU3Sso0l1SHdA=",
   "Source": "ModernHome",
   "BasePath": "_content/ModernHome",
   "Mode": "Default",
@@ -1364,6 +1364,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\alilj\\Desktop\\projekatOOAD\\ModernHome\\wwwroot\\images\\sto.jpg",
+      "SourceId": "ModernHome",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alilj\\Desktop\\projekatOOAD\\ModernHome\\wwwroot\\",
+      "BasePath": "_content/ModernHome",
+      "RelativePath": "images/sto.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\sto.jpg"
     },
     {
       "Identity": "C:\\Users\\alilj\\Desktop\\projekatOOAD\\ModernHome\\wwwroot\\js\\site.js",

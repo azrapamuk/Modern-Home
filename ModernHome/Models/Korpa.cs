@@ -12,7 +12,7 @@ namespace ModernHome.Models
         [Range(0, Double.MaxValue, ErrorMessage = "Ukupan iznos ne smije biti negativan!")]
         public double ukupanIznos { get; set; }
         [ForeignKey("Korisnik")]
-        public int Idkorisnik { get; set; }
+        public String Idkorisnik { get; set; }
         //public Korisnik korisnik { get; set; }
         public Korpa() { }
 

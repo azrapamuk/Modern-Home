@@ -1,7 +1,13 @@
-﻿@model ModernHome.Models.Ocjena
+﻿@using Microsoft.AspNetCore.Identity
+@using ModernHome.Data
+@using ModernHome.Controllers
+@using ModernHome.Models
+
+@model ModernHome.Models.Ocjena
 
 @{
     ViewData["Title"] = "Create";
+
 }
 
 <h1>Create</h1>
@@ -14,10 +20,11 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="ocjena" class="control-label"></label>
+                <label asp-for="ocjena" class="control-label"></label>
                 <select asp-for="ocjena" class="form-control"
                         asp-items="Html.GetEnumSelectList<Ocjene>()">
                     <option value="">-- Izaberite ocjenu --</option>
-                        </select>
+                </select>
                 <span asp-validation-for="ocjena" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -27,20 +34,17 @@
             </div>
             <div class="form-group">
                 <label asp-for="Idkorisnik" class="control-label"></label>
-                <input asp-for="Idkorisnik" class="form-control" />
+                <input asp-for="Idkorisnik" value="@ViewBag.Idkorisnik" class="form-control" readonly />
                 <span asp-validation-for="Idkorisnik" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Create" class="btn btn-primary" asp-controller="Ocjena" asp-action="Details" asp-route-id="@ViewBag.Idartikal" />
             </div>
         </form>
     </div>
 </div>
-
+<p>Artikal: @ViewBag.Idartikal</p>
+<p>Korisnik: @ViewBag.Idkorisnik</p>
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
-
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}

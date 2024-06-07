@@ -43,7 +43,8 @@
                 @Html.DisplayFor(modelItem => item.Idkorpa)
             </td>
             <td>
-                    @if (User.IsInRole("Administrator")){
+                    @if (User.IsInRole("Administrator") || User.IsInRole("Korisnik"))
+                    {
                         <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> <nobr>|</nobr>
                         <a asp-action="Details" asp-route-id="@item.Id">Details</a> <nobr>|</nobr>
                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>

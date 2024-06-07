@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -21,7 +22,7 @@ namespace ModernHome.Controllers
         }
 
         // GET: StavkaNarudzbe
-        [Authorize(Roles = "Administrator, Korisnik")]
+        [Authorize(Roles = "Korisnik, Administrator")]
         public async Task<IActionResult> Index()
         {
             return View(await _context.StavkaNarudzbe.ToListAsync());
@@ -46,17 +47,26 @@ namespace ModernHome.Controllers
         }
 
         // GET: StavkaNarudzbe/Create
-        [Authorize(Roles = "Administrator, Korisnik")]
-        public IActionResult Create()
-        {
-            return View();
-        }
+        /* [Authorize(Roles = "Korisnik, Administrator")]
+          public IActionResult Create()
+          {
+              return View();
+          }*/
+
+        [Authorize(Roles = "Korisnik, Administrator")]
+        public IActionResult Create(int Idartikal, double cijena)
+         {
+             ViewData["Idartikal"] = Idartikal;
+             ViewData["cijena"] = cijena;
+             return View();
+         }
 
         // POST: StavkaNarudzbe/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Korisnik, Administrator")]
         public async Task<IActionResult> Create([Bind("Id,Idartikal,kolicina,cijena,Idkorpa")] StavkaNarudzbe stavkaNarudzbe)
         {
             if (ModelState.IsValid)
@@ -155,6 +165,14 @@ namespace ModernHome.Controllers
         private bool StavkaNarudzbeExists(int id)
         {
             return _context.StavkaNarudzbe.Any(e => e.Id == id);
+        }
+        private double IzracunajUkupnuCijenuKorpe(int idKorpe)
+        {
+            var ukupnaCijena = _context.StavkaNarudzbe
+                .Where(s => s.Idkorpa == idKorpe)
+                .Sum(s => s.cijena);
+
+            return ukupnaCijena;
         }
     }
 }

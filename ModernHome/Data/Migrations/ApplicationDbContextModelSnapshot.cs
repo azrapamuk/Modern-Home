@@ -295,8 +295,9 @@ namespace ModernHome.Data.Migrations
                     b.Property<int>("CVV")
                         .HasColumnType("int");
 
-                    b.Property<int>("Idkorisnik")
-                        .HasColumnType("int");
+                    b.Property<string>("Idkorisnik")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("brojKartice")
                         .HasColumnType("int");
@@ -318,8 +319,9 @@ namespace ModernHome.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("Idkorisnik")
-                        .HasColumnType("int");
+                    b.Property<string>("Idkorisnik")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("ukupanIznos")
                         .HasColumnType("float");
@@ -337,8 +339,9 @@ namespace ModernHome.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("Idkorisnik")
-                        .HasColumnType("int");
+                    b.Property<string>("Idkorisnik")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Idkorpa")
                         .HasColumnType("int");
@@ -362,8 +365,15 @@ namespace ModernHome.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("Idkorisnik")
+                    b.Property<int>("Idartikal")
                         .HasColumnType("int");
+
+                    b.Property<string>("Idkorisnik")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("datum")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("komentar")
                         .IsRequired()

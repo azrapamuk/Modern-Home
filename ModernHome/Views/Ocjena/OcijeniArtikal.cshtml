@@ -1,0 +1,58 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using ModernHome.Data
+@using ModernHome.Controllers
+@using ModernHome.Models
+
+@model ModernHome.Models.Ocjena
+
+@{
+    ViewData["Title"] = "OcijeniArtikal";
+
+}
+
+<h1>Ocijeni Artikal</h1>
+
+<h4>@ViewBag.Idartikal</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="OcijeniArtikal">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="ocjena" class="control-label"></label>
+                <select asp-for="ocjena" class="form-control"
+                        asp-items="Html.GetEnumSelectList<Ocjene>()">
+                    <option value="">-- Izaberite ocjenu --</option>
+                </select>
+                <span asp-validation-for="ocjena" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="komentar" class="control-label"></label>
+                <input asp-for="komentar" class="form-control" />
+                <span asp-validation-for="komentar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Idkorisnik" class="control-label"></label>
+                <input asp-for="Idkorisnik" value="@ViewBag.Idkorisnik" class="form-control" readonly />
+                <span asp-validation-for="Idkorisnik" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="Idartikal" value="@ViewBag.Idartikal" asp-validation-for="Idartikal" />
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<p>
+    @ViewBag.Idkorisnika
+
+</p>
+<div>
+    <a asp-controller="Artikal" asp-action="Details" asp-route-id="@ViewBag.Idartikal">Back to List</a>
+</div>
+<script>
+    document.getElementById("datumInput").value = new Date().toLocaleDateString("en-US");
+</script>
+

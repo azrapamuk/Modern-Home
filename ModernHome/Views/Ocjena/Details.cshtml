@@ -2,6 +2,8 @@
 
 @{
     ViewData["Title"] = "Details";
+    var Idartikla = Model.Idartikal;
+    var ocjenaid = Model.Id;
 }
 
 <h1>Details</h1>
@@ -10,27 +12,34 @@
     <h4>Ocjena</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.ocjena)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.ocjena)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.komentar)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.komentar)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.datum)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.datum)
+        </dd>
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Idkorisnik)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Idkorisnik)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+
+    <a asp-controller="Ocjena" asp-action="OcjeneArtikla" asp-route-id="@Idartikla">Back to list</a>
+
 </div>

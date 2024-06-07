@@ -58,13 +58,19 @@
                 @Html.DisplayFor(modelItem => item.Iddimenzije)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.slika)
+                    <img src="@Url.Content(item.slika)" alt="cover" width="200" height="150" />
             </td>
             <td>
-
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    @if (User.IsInRole("Administrator") || User.IsInRole("Zaposlenik"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.Id"> <button type="submit">Uredi</button></a>
+                    }
+                    <a asp-action="Details" asp-route-id="@item.Id"> <button type="submit">Detalji</button></a> 
+                    @if (User.IsInRole("Administrator"))
+                    {
+                    <a asp-action="Delete" asp-route-id="@item.Id"> <button type="submit">Izbriši</button></a>
+                    }
+                   
             </td>
         </tr>
 }

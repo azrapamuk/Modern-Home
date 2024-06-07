@@ -18,6 +18,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
+using ModernHome.Models;
 
 namespace ModernHome.Areas.Identity.Pages.Account
 {
@@ -29,13 +30,15 @@ namespace ModernHome.Areas.Identity.Pages.Account
         private readonly IUserEmailStore<IdentityUser> _emailStore;
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
+        private readonly RoleManager<IdentityRole>_roleManager;
 
         public RegisterModel(
             UserManager<IdentityUser> userManager,
             IUserStore<IdentityUser> userStore,
             SignInManager<IdentityUser> signInManager,
             ILogger<RegisterModel> logger,
-            IEmailSender emailSender)
+            IEmailSender emailSender, RoleManager<IdentityRole> roleManager)
+
         {
             _userManager = userManager;
             _userStore = userStore;
@@ -43,6 +46,7 @@ namespace ModernHome.Areas.Identity.Pages.Account
             _signInManager = signInManager;
             _logger = logger;
             _emailSender = emailSender;
+            _roleManager = roleManager;
         }
 
         /// <summary>
@@ -74,6 +78,14 @@ namespace ModernHome.Areas.Identity.Pages.Account
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
+            /// 
+            [Required]
+            [Display(Name = "Ime")]
+            public string ime { get; set; }
+
+            [Required]
+            [Display(Name = "Prezime")]
+            public string prezime { get; set; }
             [Required]
             [EmailAddress]
             [Display(Name = "Email")]
@@ -88,8 +100,16 @@ namespace ModernHome.Areas.Identity.Pages.Account
             [StringLength(100, ErrorMessage = "The {0} must be at least {2}and at max {1} characters long.", MinimumLength = 5)]
             [DataType(DataType.Password)]
             [Display(Name = "Password")]
-        public string Password { get; set; }
-        
+            public string Password { get; set; }
+            [Required]
+            
+            [Display(Name = "Adresa")]
+            public string adresa { get; set; }
+
+            [Required]
+
+            [Display(Name = "Broj telefona")]
+            public string brojTel  { get; set; }
 
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
@@ -114,12 +134,22 @@ namespace ModernHome.Areas.Identity.Pages.Account
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
-                var user = CreateUser();
 
+                var user = CreateUser();
+                user.brojTelefona = Input.brojTel;
+                user.prezime = Input.prezime;
+                user.ime = Input.ime;
+                user.adresa= Input.adresa;
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
+                var defaultRole = "Korisnik";
+                if (!await _roleManager.RoleExistsAsync(defaultRole))
+                {
+                    await _roleManager.CreateAsync(new IdentityRole(defaultRole));
+                }
+                await _userManager.AddToRoleAsync(user, defaultRole);
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User created a new account with password.");
@@ -156,16 +186,16 @@ namespace ModernHome.Areas.Identity.Pages.Account
             return Page();
         }
 
-        private IdentityUser CreateUser()
+        private Korisnik CreateUser()
         {
             try
             {
-                return Activator.CreateInstance<IdentityUser>();
+                return Activator.CreateInstance<Korisnik>();
             }
             catch
             {
-                throw new InvalidOperationException($"Can't create an instance of '{nameof(IdentityUser)}'. " +
-                    $"Ensure that '{nameof(IdentityUser)}' is not an abstract class and has a parameterless constructor, or alternatively " +
+                throw new InvalidOperationException($"Can't create an instance of '{nameof(Korisnik)}'. " +
+                    $"Ensure that '{nameof(Korisnik)}' is not an abstract class and has a parameterless constructor, or alternatively " +
                     $"override the register page in /Areas/Identity/Pages/Account/Register.cshtml");
             }
         }

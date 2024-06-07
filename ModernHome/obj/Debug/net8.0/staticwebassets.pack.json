@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\images\\product.jpg"
     },
     {
+      "Id": "C:\\Users\\alilj\\Desktop\\projekatOOAD\\ModernHome\\wwwroot\\images\\sto.jpg",
+      "PackagePath": "staticwebassets\\images\\sto.jpg"
+    },
+    {
       "Id": "C:\\Users\\alilj\\Desktop\\projekatOOAD\\ModernHome\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
