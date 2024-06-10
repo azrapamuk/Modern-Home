@@ -1,54 +1,67 @@
 ﻿@{
     ViewData["Title"] = "ModernHome";
 }
-<div class="text-center">
-    <h1 class="display-4">Dobrodošli</h1>
-</div>
+
+
 <div class="container">
-    <!-- Check out our products section -->
-    <section id="products" class="products-section text-left">
-        <div class="content">
-            <h1 style="font-style=italic">"Stvaramo udobnost, oblikujemo stil."</h1>
-            <p>Svi naši proizvodi izrađeni su od najkvalitetnijih materijala, pogodni za svaku namjenu</p>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+    <section id="products" class="products-section text-left" style="background-color: #ffffff; border-radius: 15px; padding: 5vw; display: flex; align-items: flex-start;">
+        <div class="content" style="flex: 1; width: 30vw">
+            <h1 style="font-weight: bold; font-size: 2.5vw; font-family: 'Inter', sans-serif;">Stvaramo udobnost, oblikujemo stil</h1>
+            <p style="font-size: 1.7vw; font-family: 'Inter', sans-serif;">Svi naši proizvodi izrađeni su od najkvalitetnijih materijala, pogodni za svaku namjenu</p>
+            <button style="padding: 0.5vw 2vw; font-size: 1vw; background-color: #222222; color: white; border: none; border-radius: 5px; cursor: pointer; font-family: 'Inter', sans-serif;">Svi proizvodi</button>
         </div>
-        <img src="~/images/product.jpg" alt="Products" class="img-fluid rounded">
+        <img src="~/images/product.jpg" alt="Products" class="img-fluid rounded" style="width:auto; height: auto;">
     </section>
 
-    <!-- About us section -->
-    <section id="aboutus" class="about-us-section text-right">
-        <div class="content">
-            <p style="font-size=23">
-               
-                <div style="text-align: center;">
-                    <h4>Dobrodošli u ModernHome, gde tradicija susreće savremeni dizajn.</h4>
-                </div>
-                <br />
-                Sa više od 30 godina iskustva u industriji nameštaja, ponosimo se dugogodišnjom tradicijom izrade visokokvalitetnih proizvoda. Naša posvećenost vrhunskom majstorstvu i upotrebi najkvalitetnijih materijala omogućava nam da kreiramo komade nameštaja koji ne samo da zadovoljavaju, već i nadmašuju očekivanja naših kupaca.
-                <br />
-                <h4> Kvalitet prije svega!</h4>
-                <br />
-                Vjerujemo da je kvalitet osnova svakog dobrog proizvoda. Naš tim stručnjaka pažljivo bira materijale i prati najnovije tehnologije i trendove u industriji, kako bismo vam pružili namještaj koji je istovremeno moderan, funkcionalan i dugotrajan. Svaki komad namještaja koji napusti našu proizvodnju prolazi strogu kontrolu kvaliteta, osiguravajući da svaki detalj bude besprijekorno izveden.
+    <div style="text-align: center; margin-top:5vw;">
+        <h4 style="font-size:2.4vw; font-weight:bold; font-family: 'Inter'; color:#ffffff">Dobrodošli u ModernHome, gdje tradicija susreće savremeni dizajn.</h4>
+    </div>
 
+    <section id="aboutus" class="about-us-section text-right" style="display: flex; align-items: flex-start;">
+        <div class="content" style="width: 40vw; padding:2vw">
+
+            <p style="font-family: 'Inter'; font-size: 1.1vw; font-style: italic; color:#ffffff">
+                Sa više od 20 godina iskustva u industriji namještaja, ponosimo se dugogodišnjom tradicijom izrade visokokvalitetnih proizvoda. Naša posvećenost vrhunskom 
+                majstorstvu i upotrebi najkvalitetnijih materijala omogućava nam da kreiramo komade nameštaja koji ne samo da zadovoljavaju, već i nadmašuju očekivanja naših kupaca.
             </p>
+            <h4 style="font-family: 'Inter'; font-size: 3vw; font-weight: bold; color:#ffffff; text-align:center; margin-top:1vw; margin-bottom:1vw;"> Kvalitet prije svega</h4>
+            <p style ="font-family: 'Inter'; font-size: 1.1vw; color:#ffffff">
+                Vjerujemo da je kvalitet osnova svakog dobrog proizvoda. Naš tim stručnjaka pažljivo bira materijale i prati najnovije tehnologije i trendove u industriji, 
+                kako bismo vam pružili namještaj koji je istovremeno moderan, funkcionalan i dugotrajan. Svaki komad namještaja koji napusti našu proizvodnju prolazi strogu 
+                kontrolu kvaliteta, osiguravajući da svaki detalj bude besprijekorno izveden.
+            </p>
+
         </div>
-        <img src="~/images/aboutus.jpeg" alt="About Us" class="img-fluid rounded">
+        <div style="width: 70vw; margin-right: 1.5vw">
+            <img src="~/images/aboutus.jpeg" alt="About Us" class="img-fluid rounded" style="width:auto; height: auto;">
+        </div>
     </section>
 
-    <!-- Contact section -->
-    <section id="contact" class="contact-section text-left">
-        <div class="content">
-            <h2>Contact</h2>
-            <p>Telefon: +(387) 033 942 528</p>
-            <p>Email: info@modernhome.ba</p>
-            <p>Adresa: Aleja poštenih 32, Sarajevo, FBiH</p>
+    <section id="contact" class="contact-section text-left" style="background-color: #ffffff; border-radius: 15px; padding: 5vw; flex; align-items: flex-start; margin-bottom:15vw">
+        <div class="content" style="width:30vw">
+            <h2 style="font-family: 'Inter';font-size:3.6vw; font-weight: bold; margin-bottom: 1vw">Kontaktirajte nas</h2>
+            <p style ="font-family: 'Inter';font-size:1.5vw; ">Telefon: +(387)33 942 528</p>
+            <p style="font-family: 'Inter';font-size:1.5vw;">Email: info@modernhome.ba</p>
+            <p style="font-family: 'Inter';font-size:1.5vw;">Adresa: Aleja poštenih 32, Sarajevo</p>
         </div>
-        <img src="~/images/contact.jpg" alt="Contact" class="img-fluid rounded">
+        <img src="~/images/contact.jpg" alt="Contact" class="img-fluid rounded" style="width:45 vw; height:auto">
     </section>
+
+
 </div>
+
+
+    
 
 <style>
+
     body {
-        background-color: #f5f5dc; /* Beige background for the entire page */
+        background-color: #C4A693;
     }
 
     .container {
@@ -57,7 +70,7 @@
 
     .products-section, .about-us-section, .contact-section {
         padding: 5% 0;
-        background-color: #f5f5dc; /* Beige background for the sections */
+        background-color: #C4A693;
         display: flex;
         align-items: center;
         position: relative;
@@ -82,14 +95,14 @@
             z-index: 2;
             color: #000;
             width: 40%;
-            text-align: right;
+            text-align: justify;
         }
 
     .img-fluid {
-        max-width: 55%; /* Adjust width as necessary */
+        max-width: 55%; 
         height: auto;
-        border-radius: 15px; /* Rounded corners */
-        margin-left: 45%; /* Push image slightly to the left */
+        border-radius: 15px;
+        margin-left: 45%; 
         position: relative;
         z-index: 1;
     }

@@ -60,9 +60,40 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - ModernHome - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer class="border-top footer text-muted" style="background-color:#ffffff; position:absolute; bottom:0px; height:12.5 vw">
+        <div class="container" style="height: 12.5vw; display: flex; justify-content: space-between; align-items: flex-start;">
+            <div id="thanks" style="width: 20vw; height:12vw; display: inline-block;margin-right:20vw;">
+                <img src="~/images/logo.png" alt="Logo" class="logo-img" style="height: 8vw; width: auto; " />
+                <p style="color:#785A47; font-size:1vw; line-height: 1.2;">Hvala Vam na posjeti naše stranice.</p>
+                <p style="color:#785A47; font-size: 0.7vw;line-height: 1.2;">
+                        &copy; 2024 - ModernHome - <a class="privacy-link" asp-area="" asp-controller="Home" asp-action="Privacy">Politika privatnosti</a>
+                    </p>
+                </div><div id="contact" class="contact" style="margin-right: 20px;">
+                <h2 style="color:#ffffff; font-family: 'Inter'; font-size: 2.2vw; font-weight: bold;">
+                    Kontakt
+                </h2>
+                <p style="color:#ffffff; font-family: 'Inter'; font-size: 1vw; line-height: 1.5;">
+                    Telefon: +(387)33 942 528
+                    <br>Email: info@modernhome.ba
+                    <br>Adresa: Aleja poštenih 32, Sarajevo
+                </p>
+            </div>
+            <div id="socials" class="socials" style="margin-right: 20px;">
+                <h2 style="color:#ffffff; font-family: 'Inter'; font-size: 2.2vw; font-weight: bold;">
+                    Društvene mreže
+                </h2>
+                <p style="color:#ffffff; font-family: 'Inter'; font-size: 1vw; line-height: 1.2; word-wrap: break-word; text-align:justify">
+                    Ostanite u koraku s najnovijim <br>obavijestima i prvi saznajte <br>o novim ponudama.
+                </p>
+                <div id="socialspng" style="display: flex; justify-content: flex-end; align-items: flex-start;">
+                    <a href="https://www.instagram.com/modernhome.ba" target="_blank" style="margin-right:1vw;">
+                        <img src="~/images/instagram.png" alt="Instagram" style="height:1vw;width:auto; margin-right:1vw;" />
+                    </a>
+                    <a href="https://www.facebook.com/people/Modern-Home/61560641797233/" target="_blank">
+                        <img src="~/images/facebook.png" alt="Facebook" style="height:1vw;width:auto;" />
+                    </a>
+                </div>
+            </div>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
@@ -71,3 +102,38 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+
+<style>
+
+.privacy-link {
+        color: #785A47;
+        text-decoration: none; 
+}
+
+.privacy-link:hover {
+        color: #785A47;
+        font-weight:bold;
+
+}
+
+.contact{
+        background-color: #C29C84;
+        display: inline-block;
+        border-radius:12px;
+        height: 12vw;
+        width:20vw;
+        padding: 10px;
+
+}
+
+.socials{
+        background-color: #785A47;
+        display: inline-block;
+        border-radius: 12px;
+        height: 12vw;
+        width:20vw;
+        padding: 10px;
+
+    }
+
+</style>
