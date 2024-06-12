@@ -8601,19 +8601,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Korisnik\\.nuget\\packages\\": {}
+    "C:\\Users\\Amil\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\ModernHome.csproj",
+      "projectUniqueName": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\ModernHome.csproj",
       "projectName": "ModernHome",
-      "projectPath": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\ModernHome.csproj",
-      "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\obj\\",
+      "projectPath": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\ModernHome.csproj",
+      "packagesPath": "C:\\Users\\Amil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Amil\\Desktop\\Tim32_Modern_home\\ModernHome\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Amil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8694,7 +8694,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

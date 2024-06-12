@@ -56,6 +56,12 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Narudzba" asp-action="Index">Narudzbe</a>
                         </li>
                          }
+                        @if (User.IsInRole("Administrator"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="SviKorisnici">Korisnici</a>
+                            </li>
+                        }
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
@@ -68,7 +74,7 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted" style="background-color:#ffffff; position:absolute; bottom:0px; height:12.5 vh">
+    <footer class="border-top footer text-muted" style="background-color:#ffffff; position:relative; bottom:0px; height:12.5 vh">
         <div class="container" style="height: 12.5vw; display: flex; justify-content: space-between; align-items: flex-start;">
             <div id="thanks" style="width: 20vw; height:12vw; display: inline-block;margin-right:20vw;">
                 <img src="~/images/logo.png" alt="Logo" class="logo-img" style="height: 8vw; width: auto; " />
