@@ -27,14 +27,22 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#aboutus">O nama</a>
+                            <a class="nav-link text-dark" href="/#aboutus">O nama</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#contact">Kontakt</a>
+                            <a class="nav-link text-dark" href="/#contact">Kontakt</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Artikal" asp-action="Index">Proizvodi</a>
-                        </li>
+                        <li class="dropdown">
+                            <a class="nav-link text-dark" style="color: black; text-decoration:none;  position: relative; display: inline-block;">Kategorije</a>
+                            <div class="dropdown-content">
+                                <a asp-area="" asp-controller="Artikal" asp-action="Index">Svi proizvodi</a>
+                                <a href="#service2">Dnevna soba</a>
+                                <a href="#service3">Kuhinja</a>
+                                <a href="#service1">Spavaća soba</a>
+                                <a href="#service1">Ured</a>
+                                <a href="#service1">Dekoracije</a>
+                                <a href="#service1">Razno</a>
+                            </div>
                         </li>
                         @if (User.Identity.IsAuthenticated)
                         {
@@ -60,7 +68,7 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted" style="background-color:#ffffff; position:absolute; bottom:0px; height:12.5 vw">
+    <footer class="border-top footer text-muted" style="background-color:#ffffff; position:absolute; bottom:0px; height:12.5 vh">
         <div class="container" style="height: 12.5vw; display: flex; justify-content: space-between; align-items: flex-start;">
             <div id="thanks" style="width: 20vw; height:12vw; display: inline-block;margin-right:20vw;">
                 <img src="~/images/logo.png" alt="Logo" class="logo-img" style="height: 8vw; width: auto; " />
@@ -87,10 +95,10 @@
                 </p>
                 <div id="socialspng" style="display: flex; justify-content: flex-end; align-items: flex-start;">
                     <a href="https://www.instagram.com/modernhome.ba" target="_blank" style="margin-right:1vw;">
-                        <img src="~/images/instagram.png" alt="Instagram" style="height:1vw;width:auto; margin-right:1vw;" />
+                        <img src="~/images/instagram.png" alt="Instagram" style="height:2vw;width:auto; margin-right:1vw;" />
                     </a>
                     <a href="https://www.facebook.com/people/Modern-Home/61560641797233/" target="_blank">
-                        <img src="~/images/facebook.png" alt="Facebook" style="height:1vw;width:auto;" />
+                        <img src="~/images/facebook.png" alt="Facebook" style="height:2vw;width:auto;" />
                     </a>
                 </div>
             </div>
@@ -135,5 +143,33 @@
         padding: 10px;
 
     }
+
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 9999;
+    }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            font-size:2vh;
+            display: block;
+            text-align: left;
+            z-index: 9999; 
+        }
+
+       .dropdown-content a:hover {
+                background-color: #f1f1f1;
+       }
+
+        .dropdown:hover .dropdown-content {
+        display: block;
+        }
 
 </style>

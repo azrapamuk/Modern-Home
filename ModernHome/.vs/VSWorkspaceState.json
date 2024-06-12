@@ -2,7 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Views",
-    "\\Views\\Artikal"
+    "\\Views\\Artikal",
+    "\\Views\\Home",
+    "\\Views\\Shared"
   ],
   "SelectedNode": "\\ModernHome.sln",
   "PreviewInSolutionExplorer": false
