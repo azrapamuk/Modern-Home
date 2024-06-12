@@ -68,8 +68,7 @@
                 <span asp-validation-for="cijena" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Idkorpa" class="control-label"></label>
-                <input asp-for="Idkorpa" class="form-control" />
+                <input  asp-for="Idkorpa" value="@ViewBag.KorpaID" asp-validation-for="Idkorpa" />
                 <span asp-validation-for="Idkorpa" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -79,6 +78,7 @@
     </div>
 </div>
 <p>Preneseni artikal: @ViewBag.Idartikal</p>
+<p>Preneseni idKorpe: @ViewBag.KorpaID</p>
 <div>
     <a asp-action="Index">Back to List</a>
 </div>

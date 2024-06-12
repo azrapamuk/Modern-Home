@@ -4,6 +4,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -15,9 +16,10 @@ namespace ModernHome.Controllers
     public class StavkaNarudzbeController : Controller
     {
         private readonly ApplicationDbContext _context;
-
-        public StavkaNarudzbeController(ApplicationDbContext context)
+        private readonly UserManager<IdentityUser> _userManager;
+        public StavkaNarudzbeController(UserManager<IdentityUser> userManager,ApplicationDbContext context)
         {
+            _userManager = userManager;
             _context = context;
         }
 
@@ -54,13 +56,22 @@ namespace ModernHome.Controllers
           }*/
 
         [Authorize(Roles = "Korisnik, Administrator")]
-        public IActionResult Create(int Idartikal, double cijena)
+        public  IActionResult Create(int Idartikal, double cijena)
          {
-             ViewData["Idartikal"] = Idartikal;
-             ViewData["cijena"] = cijena;
-             return View();
-         }
+          
+            ViewData["Idartikal"] = Idartikal;
+            ViewData["cijena"] = cijena;
+            var userid =_userManager.GetUserId(HttpContext.User);
+            var korpaIds = _context.Korpa
+                               .Where(k => k.Idkorisnik == userid)
+                               .Select(k => k.Id)
+                               .ToList();
+            string KorpaID = korpaIds.First().ToString();
+            ViewData["KorpaID"] = KorpaID;
+            return View();
 
+        }
+       
         // POST: StavkaNarudzbe/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +14,7 @@ namespace ModernHome.Controllers
 {
     public class ArtikalController : Controller
     {
+        private readonly UserManager<IdentityUser> _userManager;
         private readonly ApplicationDbContext _context;
 
         public ArtikalController(ApplicationDbContext context)
@@ -30,20 +32,20 @@ namespace ModernHome.Controllers
         // GET: Artikal/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+             if (id == null)
+             {
+                 return NotFound();
+             }
 
-            var artikal = await _context.Artikal
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (artikal == null)
-            {
-                return NotFound();
-            }
+             var artikal = await _context.Artikal
+                 .FirstOrDefaultAsync(m => m.Id == id);
+             if (artikal == null)
+             {
+                 return NotFound();
+             }
 
-            return View(artikal);
-        }
+             return View(artikal);
+        } 
 
         // GET: Artikal/Create
         [Authorize(Roles = "Administrator")]
