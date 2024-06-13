@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bwPBPWFspGuOZgLSagbIHPVlJbaeCRCE15zzgs8hIjk=",
+  "Hash": "EPbCUNpsZC59g7Ije5MFCFN3nsTeT5ThGXJDSefH450=",
   "Source": "ModernHome",
   "BasePath": "_content/ModernHome",
   "Mode": "Default",
@@ -1309,6 +1309,25 @@
       "OriginalItemSpec": "wwwroot\\images\\cart.webp"
     },
     {
+      "Identity": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\check.png",
+      "SourceId": "ModernHome",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\",
+      "BasePath": "_content/ModernHome",
+      "RelativePath": "images/check.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\check.png"
+    },
+    {
       "Identity": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\contact.jpg",
       "SourceId": "ModernHome",
       "SourceType": "Discovered",
@@ -1326,6 +1345,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\contact.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\email.jpg",
+      "SourceId": "ModernHome",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\",
+      "BasePath": "_content/ModernHome",
+      "RelativePath": "images/email.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\email.jpg"
     },
     {
       "Identity": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\facebook.png",

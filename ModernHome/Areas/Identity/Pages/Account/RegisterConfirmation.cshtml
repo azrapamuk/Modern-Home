@@ -1,0 +1,78 @@
+﻿@page
+@model RegisterConfirmationModel
+@{
+    ViewData["Title"] = "Register confirmation";
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="hide-footer">
+@{
+    if (@Model.DisplayConfirmAccountLink)
+        {
+            <section>
+                <div style="width: 100%; text-align: center;">
+                    <img src="~/images/email.jpg" style="height: 20vh; width: auto;" alt="Email Icon" />
+                </div>
+                <p>Vaša registracija je skoro gotova.<br />Potrebno je da potvrdite svoju e-mail adresu klikom na link ispod kako biste završili sa kreiranjem svog korisničkog računa.</p>
+                <p>
+                    <a id="confirm-link" href="@Model.EmailConfirmationUrl">Potvrdite svoj email.</a>
+                </p>
+        </section>
+    }
+    else
+    {
+<p>
+        Please check your email to confirm your account.
+</p>
+    }
+}
+
+</body>
+
+<style>
+    .hide-footer {
+        background-color: #C4A693;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+        .hide-footer footer {
+            display: none;
+        }
+
+        .hide-footer nav {
+            display: none;
+        }
+
+    section {
+        background-color: #ffffff;
+        border-radius: 12px;
+        height: 50vh;
+        width: 84vw;
+        box-shadow: 0px 8px 8px 0px rgba(0.2, 0.2, 0.2, 0.2);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    img {
+        height: 30vh;
+        width: auto;
+        margin-bottom: 3vh;
+    }
+
+    p {
+        font-size: 3vh;
+    }
+
+</style>
+

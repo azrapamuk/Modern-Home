@@ -29,8 +29,16 @@
       "PackagePath": "staticwebassets\\images\\cart.webp"
     },
     {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\check.png",
+      "PackagePath": "staticwebassets\\images\\check.png"
+    },
+    {
       "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\contact.jpg",
       "PackagePath": "staticwebassets\\images\\contact.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\email.jpg",
+      "PackagePath": "staticwebassets\\images\\email.jpg"
     },
     {
       "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\facebook.png",
