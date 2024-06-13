@@ -292,15 +292,17 @@ namespace ModernHome.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("CVV")
-                        .HasColumnType("int");
+                    b.Property<string>("CVV")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Idkorisnik")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("brojKartice")
-                        .HasColumnType("int");
+                    b.Property<string>("brojKartice")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("datumIsteka")
                         .IsRequired()

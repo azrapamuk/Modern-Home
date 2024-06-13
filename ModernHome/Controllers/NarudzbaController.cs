@@ -21,7 +21,7 @@ namespace ModernHome.Controllers
         private readonly UserManager<IdentityUser> _userManager;
         public NarudzbaController(UserManager<IdentityUser> userManager, ApplicationDbContext context)
         {
-            _userManager= userManager;
+            _userManager = userManager;
             _context = context;
         }
 
@@ -52,10 +52,9 @@ namespace ModernHome.Controllers
 
         // GET: Narudzba/Create
         [Authorize(Roles = "Administrator, Korisnik")]
-        public IActionResult Create(double cijena)
+        public IActionResult Create()
         {
-            ViewData["cijena"]=cijena;
-                var userid = _userManager.GetUserId(HttpContext.User);
+            var userid = _userManager.GetUserId(HttpContext.User);
             var korpaIds = _context.Korpa
                                .Where(k => k.Idkorisnik == userid)
                                .Select(k => k.Id)
@@ -74,7 +73,7 @@ namespace ModernHome.Controllers
             ViewData["Idkorpa"] = KorpaID;
             //ViewData["cijena"] = cijena;
 
-            ViewData["korisnik"]=userid;
+            ViewData["korisnik"] = userid;
             //return View();
             bool nemaNaStanju = false;
             var stavkeNarudzbe = _context.StavkaNarudzbe
@@ -110,7 +109,7 @@ namespace ModernHome.Controllers
                 //ModelState.AddModelError(nameof(Artikal.kolicina), "Nedovoljno artikala na stanju za ovu narudzbu");
                 return RedirectToAction("Index", "StavkaNarudzbe");
             }
-           
+
 
             // Čuvanje promjena u bazi podataka
             _context.SaveChanges();
@@ -126,13 +125,13 @@ namespace ModernHome.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Idkorisnik,vrijemeNarudzbe,stanjeIsporuke,Idkorpa, cijena")] Narudzba narudzba)
         {
-            
+
             narudzba.vrijemeNarudzbe = DateTime.Now;
 
-            
+
             var userId = _userManager.GetUserId(HttpContext.User);
 
-           
+
             var korpa = await _context.Korpa.FirstOrDefaultAsync(k => k.Idkorisnik == userId);
 
             if (korpa != null)
@@ -148,14 +147,14 @@ namespace ModernHome.Controllers
 
                 narudzba.cijena = ukupnaCijena;
             }
-                if (ModelState.IsValid)
-                {
-                    _context.Add(narudzba);
-                    await _context.SaveChangesAsync();
-                    return RedirectToAction(nameof(Index));
-                }
-                return View(narudzba);
-            
+            if (ModelState.IsValid)
+            {
+                _context.Add(narudzba);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(narudzba);
+
         }
 
         // GET: Narudzba/Edit/5
@@ -247,6 +246,6 @@ namespace ModernHome.Controllers
         {
             return _context.Narudzba.Any(e => e.Id == id);
         }
-    }
 
+    }
 }

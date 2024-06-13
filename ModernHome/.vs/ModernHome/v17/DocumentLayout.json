@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\ooad_app\\modernhome\\controllers\\stavkanarudzbecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:controllers\\stavkanarudzbecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\ooad_app\\modernhome\\controllers\\karticacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:controllers\\karticacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\ooad_app\\modernhome\\controllers\\narudzbacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:controllers\\narudzbacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\ooad_app\\modernhome\\views\\kartica\\uspjesnoplacanje.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:views\\kartica\\uspjesnoplacanje.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\ooad_app\\modernhome\\views\\kartica\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:views\\kartica\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\ooad_app\\modernhome\\views\\narudzba\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:views\\narudzba\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\ooad_app\\modernhome\\views\\artikal\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:views\\artikal\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\ooad_app\\modernhome\\views\\artikal\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:views\\artikal\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\ooad_app\\modernhome\\views\\artikal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -19,28 +43,28 @@
       "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:views\\stavkanarudzbe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\ooad_app\\modernhome\\views\\narudzba\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:views\\narudzba\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\ooad_app\\modernhome\\views\\narudzba\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:views\\narudzba\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\ooad_app\\modernhome\\views\\narudzba\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:views\\narudzba\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\ooad_app\\modernhome\\models\\kartica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:models\\kartica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\ooad_app\\modernhome\\views\\narudzba\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:views\\narudzba\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\ooad_app\\modernhome\\views\\narudzba\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:views\\narudzba\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\ooad_app\\modernhome\\controllers\\stavkanarudzbecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:controllers\\stavkanarudzbecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\ooad_app\\modernhome\\views\\narudzba\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:views\\narudzba\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\ooad_app\\modernhome\\models\\narudzba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:models\\narudzba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\ooad_app\\modernhome\\views\\narudzba\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:views\\narudzba\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\ooad_app\\modernhome\\models\\artikal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,10 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\ooad_app\\modernhome\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\ooad_app\\modernhome\\models\\kartica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:models\\kartica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\ooad_app\\modernhome\\controllers\\ocjenacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,7 +114,176 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UspjesnoPlacanje.cshtml",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Kartica\\UspjesnoPlacanje.cshtml",
+              "RelativeDocumentMoniker": "Views\\Kartica\\UspjesnoPlacanje.cshtml",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Kartica\\UspjesnoPlacanje.cshtml",
+              "RelativeToolTip": "Views\\Kartica\\UspjesnoPlacanje.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T16:22:34.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Narudzba\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Narudzba\\Create.cshtml",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Narudzba\\Create.cshtml",
+              "RelativeToolTip": "Views\\Narudzba\\Create.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T08:53:06.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Artikal\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Artikal\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Artikal\\Index.cshtml",
+              "RelativeToolTip": "Views\\Artikal\\Index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAA0AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T12:50:37.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StavkaNarudzbeController.cs",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Controllers\\StavkaNarudzbeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StavkaNarudzbeController.cs",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Controllers\\StavkaNarudzbeController.cs",
+              "RelativeToolTip": "Controllers\\StavkaNarudzbeController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAADgv0wAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T06:24:54.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Kartica\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Kartica\\Create.cshtml",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Kartica\\Create.cshtml",
+              "RelativeToolTip": "Views\\Kartica\\Create.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACgAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T15:17:43.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KarticaController.cs",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Controllers\\KarticaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\KarticaController.cs",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Controllers\\KarticaController.cs",
+              "RelativeToolTip": "Controllers\\KarticaController.cs",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAiwLkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:22:31.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NarudzbaController.cs",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Controllers\\NarudzbaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NarudzbaController.cs",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Controllers\\NarudzbaController.cs",
+              "RelativeToolTip": "Controllers\\NarudzbaController.cs",
+              "ViewState": "AQIAAOEAAAAAAAAAAAAmwIQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:45:11.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Artikal\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Artikal\\Details.cshtml",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Artikal\\Details.cshtml",
+              "RelativeToolTip": "Views\\Artikal\\Details.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADwAAACLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T16:19:57.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Artikal\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Artikal\\Create.cshtml",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Artikal\\Create.cshtml",
+              "RelativeToolTip": "Views\\Artikal\\Create.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADgAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T15:21:29.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\StavkaNarudzbe\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\StavkaNarudzbe\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\StavkaNarudzbe\\Index.cshtml",
+              "RelativeToolTip": "Views\\StavkaNarudzbe\\Index.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAuwGwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T06:55:20.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Narudzba\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Narudzba\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Narudzba\\Index.cshtml",
+              "RelativeToolTip": "Views\\Narudzba\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAD8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T13:05:24.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Kartica.cs",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Models\\Kartica.cs",
+              "RelativeDocumentMoniker": "Models\\Kartica.cs",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Models\\Kartica.cs",
+              "RelativeToolTip": "Models\\Kartica.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T08:04:41.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Narudzba\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Narudzba\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Narudzba\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Narudzba\\Edit.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T13:06:47.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Narudzba\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Narudzba\\Details.cshtml",
@@ -107,83 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Narudzba\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Narudzba\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Narudzba\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Narudzba\\Edit.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACcAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T13:06:47.101Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Narudzba\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Narudzba\\Index.cshtml",
-              "ToolTip": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Narudzba\\Index.cshtml",
-              "RelativeToolTip": "Views\\Narudzba\\Index.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADAAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T13:05:24.966Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NarudzbaController.cs",
-              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Controllers\\NarudzbaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\NarudzbaController.cs",
-              "ToolTip": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Controllers\\NarudzbaController.cs",
-              "RelativeToolTip": "Controllers\\NarudzbaController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJ4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T09:45:11.941Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Narudzba\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Narudzba\\Create.cshtml",
-              "ToolTip": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Narudzba\\Create.cshtml",
-              "RelativeToolTip": "Views\\Narudzba\\Create.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T08:53:06.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Artikal\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Artikal\\Index.cshtml",
-              "ToolTip": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Artikal\\Index.cshtml",
-              "RelativeToolTip": "Views\\Artikal\\Index.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T12:50:37.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\StavkaNarudzbe\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\StavkaNarudzbe\\Index.cshtml",
-              "ToolTip": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\StavkaNarudzbe\\Index.cshtml",
-              "RelativeToolTip": "Views\\StavkaNarudzbe\\Index.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAG8AAABcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T06:55:20.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Narudzba\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Narudzba\\Delete.cshtml",
@@ -195,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Narudzba.cs",
               "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Models\\Narudzba.cs",
               "RelativeDocumentMoniker": "Models\\Narudzba.cs",
@@ -203,23 +316,12 @@
               "RelativeToolTip": "Models\\Narudzba.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T08:04:32.098Z"
+              "WhenOpened": "2024-06-13T08:04:32.098Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "StavkaNarudzbeController.cs",
-              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Controllers\\StavkaNarudzbeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StavkaNarudzbeController.cs",
-              "ToolTip": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Controllers\\StavkaNarudzbeController.cs",
-              "RelativeToolTip": "Controllers\\StavkaNarudzbeController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T06:24:54.542Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "Artikal.cs",
               "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Models\\Artikal.cs",
               "RelativeDocumentMoniker": "Models\\Artikal.cs",
@@ -231,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\StavkaNarudzbe\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\StavkaNarudzbe\\Create.cshtml",
@@ -243,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -255,19 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Kartica.cs",
-              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Models\\Kartica.cs",
-              "RelativeDocumentMoniker": "Models\\Kartica.cs",
-              "ToolTip": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Models\\Kartica.cs",
-              "RelativeToolTip": "Models\\Kartica.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAABiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T08:04:41.521Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "OcjenaController.cs",
               "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Controllers\\OcjenaController.cs",
               "RelativeDocumentMoniker": "Controllers\\OcjenaController.cs",
@@ -279,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -291,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "RegisterConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
@@ -303,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "ConfirmEmail.cshtml",
               "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
@@ -315,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -327,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",

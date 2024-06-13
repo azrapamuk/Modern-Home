@@ -4,7 +4,7 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1>Placanje</h1>
 
 <h4>Kartica</h4>
 <hr />
@@ -27,21 +27,19 @@
                 <input asp-for="datumIsteka" class="form-control" />
                 <span asp-validation-for="datumIsteka" class="text-danger"></span>
             </div>
-            <div class="form-group">
+           <!--<div class="form-group">
                 <label asp-for="Idkorisnik" class="control-label"></label>
                 <input asp-for="Idkorisnik" class="form-control" />
                 <span asp-validation-for="Idkorisnik" class="text-danger"></span>
-            </div>
+                 </div>-->
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                
             </div>
         </form>
     </div>
 </div>
+<a asp-controller="Kartica" asp-action="UspjesnoPlacanje"><button type="submit">Zavrsi placanje</button></a>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

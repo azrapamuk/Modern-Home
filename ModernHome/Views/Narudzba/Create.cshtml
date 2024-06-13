@@ -51,10 +51,7 @@
         alert('@ViewData["Poruka"]');
     </script>
 }
-<p>korisnik: @ViewBag.korisnik</p>
-<p>Korpa: @ViewBag.Idkorpa</p>
-<p>vrijeme: @ViewBag.vrijeme</p>
-<p>Cijena: @ViewBag.cijena</p>
+
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

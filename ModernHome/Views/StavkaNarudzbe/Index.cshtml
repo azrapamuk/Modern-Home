@@ -92,7 +92,7 @@
     <input type="hidden" name="Cijena" id="Cijena" value="" />
     <button type="submit">Kreiraj Narudzbu</button>
 </form>-->
-<a asp-controller="Narudzba" asp-action="Create" asp-route-cijena="" id="createOrderLink"><button type="submit">Kreiraj narudzbu</button></a>
+<a asp-controller="Narudzba" asp-action="Create" ><button type="submit">Kreiraj narudzbu</button></a>
 
 <div id="bottomBar">
     <a asp-controller="Artikal" asp-action="Index"><button type="button">Nazad na artikle</button></a>
@@ -107,16 +107,6 @@
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             updateTotalPrice();
-            document.getElementById('createOrderLink').addEventListener('click', function () {
-                // Dobijanje vrijednosti ukupne cijene
-                var totalPrice = document.getElementById('totalPriceContainer').textContent;
-
-                // Postavljanje vrijednosti ukupne cijene u asp-route-cijena atribut
-                var createOrderLink = document.getElementById('createOrderLink');
-                createOrderLink.setAttribute('asp-route-cijena', totalPrice);
-            });
-        
-        
       });
 
         function updateTotalPrice() {

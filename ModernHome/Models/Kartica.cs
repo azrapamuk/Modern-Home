@@ -11,10 +11,10 @@ namespace ModernHome.Models
         public int Id { get; set; }
         [DisplayName("Broj Kartice")]
         [RegularExpression(@"^\d{16}$", ErrorMessage = "Broj kartice mora sadržavati 16 cifara.")]
-        public int brojKartice { get; set; }
+        public string brojKartice { get; set; }
         [DisplayName("CVV")]
         [RegularExpression(@"^\d{3}$", ErrorMessage = "Broj CVV mora sadržavati 3 cifare.")]
-        public int CVV { get; set; }
+        public string CVV { get; set; }
         [DisplayName("Datum isteka (mm/yyyy)")]
         [ValidateDate]
         public string datumIsteka { get; set; }

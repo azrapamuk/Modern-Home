@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -13,9 +14,10 @@ namespace ModernHome.Controllers
     public class KarticaController : Controller
     {
         private readonly ApplicationDbContext _context;
-
-        public KarticaController(ApplicationDbContext context)
+        private readonly UserManager<IdentityUser> _userManager;
+        public KarticaController(UserManager<IdentityUser>  userManager, ApplicationDbContext context)
         {
+            _userManager= userManager;
             _context = context;
         }
 
@@ -56,6 +58,8 @@ namespace ModernHome.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,brojKartice,CVV,datumIsteka,Idkorisnik")] Kartica kartica)
         {
+            var userId = _userManager.GetUserId(HttpContext.User);
+            kartica.Idkorisnik = userId;
             if (ModelState.IsValid)
             {
                 _context.Add(kartica);
@@ -152,6 +156,34 @@ namespace ModernHome.Controllers
         private bool KarticaExists(int id)
         {
             return _context.Kartica.Any(e => e.Id == id);
+        }
+        public IActionResult Zavrsi()
+        {
+            return View();
+        }
+        public IActionResult UspjesnoPlacanje()
+        {
+            var userId = _userManager.GetUserId(User);
+
+            
+            var userKorpe = _context.Korpa
+                                    .Where(k => k.Idkorisnik == userId)
+                                    .Select(k => k.Id)
+                                    .ToList();
+
+            
+            var stavkeNarudzbe = _context.StavkaNarudzbe
+                                         .Where(s => userKorpe.Contains(s.Idkorpa))
+                                         .ToList();
+
+          
+            _context.StavkaNarudzbe.RemoveRange(stavkeNarudzbe);
+
+          
+            _context.SaveChanges();
+
+            return View();
+           
         }
     }
 }
