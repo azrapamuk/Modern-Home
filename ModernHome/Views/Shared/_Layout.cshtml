@@ -26,12 +26,15 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="/#aboutus">O nama</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="/#contact">Kontakt</a>
-                        </li>
+                        @if (!User.Identity.IsAuthenticated || (!User.IsInRole("Administrator") && !User.IsInRole("Zaposlenik")))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="/#aboutus">O nama</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="/#contact">Kontakt</a>
+                            </li>
+                        }
                         <li class="dropdown">
                             <a class="nav-link text-dark" style="color: black; text-decoration:none;  position: relative; display: inline-block;">Kategorije</a>
                             <div class="dropdown-content">
@@ -44,7 +47,10 @@
                                 <a href="#service1">Razno</a>
                             </div>
                         </li>
-                        @if (User.Identity.IsAuthenticated)
+                        <form class="form-inline my-2 my-lg-0" method="get" action="/Artikal">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="query" style="width: 20vw;">
+                        </form>
+                        @if (User.Identity.IsAuthenticated && (!User.IsInRole("Administrator") && !User.IsInRole("Zaposlenik")))
                         {
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Korpa" asp-action="Index">Korpa</a>
@@ -53,7 +59,7 @@
                         @if (User.Identity.IsAuthenticated)
                          {
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Narudzba" asp-action="Index">Narudzbe</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Narudzba" asp-action="Index">Narudžbe</a>
                         </li>
                          }
                         @if (User.IsInRole("Administrator"))
@@ -74,8 +80,10 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted" style="background-color:#ffffff; position:relative; bottom:0px; height:12.5 vh">
-        <div class="container" style="height: 12.5vw; display: flex; justify-content: space-between; align-items: flex-start;">
+    @if (!User.IsInRole("Administrator"))
+    {
+        <footer class="border-top footer text-muted" style="background-color:#ffffff; position:relative; bottom:0px; height:35vh">
+            <div class="container" style="height: 12.5vw; display: flex; justify-content: space-between; align-items: flex-start;">
             <div id="thanks" style="width: 20vw; height:12vw; display: inline-block;margin-right:20vw;">
                 <img src="~/images/logo.png" alt="Logo" class="logo-img" style="height: 8vw; width: auto; " />
                 <p style="color:#785A47; font-size:1vw; line-height: 1.2;">Hvala Vam na posjeti naše stranice.</p>
@@ -110,6 +118,7 @@
             </div>
         </div>
     </footer>
+    }
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

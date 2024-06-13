@@ -23,10 +23,21 @@ namespace ModernHome.Controllers
         }
 
         // GET: Artikal
-       // [Authorize(Roles = "Administrator, Korisnik")]
-        public async Task<IActionResult> Index()
+        // [Authorize(Roles = "Administrator, Korisnik")]
+        public async Task<IActionResult> Index(string query)
         {
-            return View(await _context.Artikal.ToListAsync());
+            IQueryable<Artikal> artikliQuery = _context.Artikal;
+
+            if (!string.IsNullOrEmpty(query))
+            {
+                artikliQuery = artikliQuery.Where(a => a.naziv.Contains(query));
+            }
+
+            var artikli = await artikliQuery.ToListAsync();
+
+            ViewBag.Query = query; // Pass query to the view
+
+            return View(artikli);
         }
 
         // GET: Artikal/Details/5
@@ -45,7 +56,18 @@ namespace ModernHome.Controllers
              }
 
              return View(artikal);
-        } 
+        }
+
+        public IActionResult FilterNaziv(string query)
+        {
+            // Query items based on search query
+            var artikli = _context.Artikal.Where(a => a.naziv.Contains(query)).ToList();
+
+            ViewBag.Query = query; // Pass query to the view
+
+            return View(artikli);
+       
+        }
 
         // GET: Artikal/Create
         [Authorize(Roles = "Administrator")]

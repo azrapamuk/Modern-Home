@@ -6,6 +6,8 @@
 
 <h1>Index</h1>
 
+@if (Model.Any())
+{
 <p>
     <a asp-action="Create">Create New</a>
 </p>
@@ -76,3 +78,12 @@
 }
     </tbody>
 </table>
+}
+else if (!string.IsNullOrEmpty(ViewBag.Query))
+{
+    <p>No results found for "@ViewBag.Query".</p>
+}
+else
+{
+    <p>No items found.</p>
+}

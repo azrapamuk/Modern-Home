@@ -6,14 +6,12 @@
     var userRoles = ViewBag.UserRoles as IList<string>;
 }
 
-<h1>SviKorisniciEdit</h1>
-
-<h1>Mjenjanje rola za korisnika : @userName</h1>
+<h1>Mjenjanje uloge za korisnika : @userName</h1>
 <form asp-action="SviKorisniciEdit" method="post">
     <input type="hidden" name="username" value="@userName" />
 
     <div class="form-group">
-        <label class="control-label">User Roles</label>
+        <label class="control-label">Odaberite ulogu:</label>
         @foreach (var role in roles)
         {
             <div class="checkbox">
