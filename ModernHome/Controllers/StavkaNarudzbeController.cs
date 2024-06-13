@@ -27,7 +27,19 @@ namespace ModernHome.Controllers
         [Authorize(Roles = "Korisnik, Administrator")]
         public async Task<IActionResult> Index()
         {
-            return View(await _context.StavkaNarudzbe.ToListAsync());
+            //return View(await _context.StavkaNarudzbe.ToListAsync());
+            var userid = _userManager.GetUserId(HttpContext.User);
+            var korpaIds = _context.Korpa
+                               .Where(k => k.Idkorisnik == userid)
+                               .Select(k => k.Id)
+                               .ToList();
+            var KorpaID = korpaIds.First().ToString();
+            var filteredData = await _context.StavkaNarudzbe
+                                             .Where(s => s.Idkorpa == Convert.ToInt32(KorpaID))
+                                             .ToListAsync();
+
+
+            return View(filteredData);
         }
 
         // GET: StavkaNarudzbe/Details/5
@@ -58,16 +70,28 @@ namespace ModernHome.Controllers
         [Authorize(Roles = "Korisnik, Administrator")]
         public  IActionResult Create(int Idartikal, double cijena)
          {
-          
+
             ViewData["Idartikal"] = Idartikal;
             ViewData["cijena"] = cijena;
-            var userid =_userManager.GetUserId(HttpContext.User);
+            var userid = _userManager.GetUserId(HttpContext.User);
             var korpaIds = _context.Korpa
                                .Where(k => k.Idkorisnik == userid)
                                .Select(k => k.Id)
                                .ToList();
-            string KorpaID = korpaIds.First().ToString();
+            //string KorpaID = korpaIds.First().ToString();
+            var KorpaID = "";
+            if (korpaIds != null && korpaIds.Any())
+            {
+                // Convert the first element to string
+                KorpaID = korpaIds.First().ToString();
+            }
+            else
+            {
+                // Initialize KorpaID with a default value in case korpaIds is null or empty
+                KorpaID = "";
+            }
             ViewData["KorpaID"] = KorpaID;
+
             return View();
 
         }
