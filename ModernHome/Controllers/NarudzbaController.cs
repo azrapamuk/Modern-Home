@@ -52,12 +52,9 @@ namespace ModernHome.Controllers
 
         // GET: Narudzba/Create
         [Authorize(Roles = "Administrator, Korisnik")]
-        public IActionResult Create()
+        public IActionResult Create(double cijena)
         {
-            if (ViewData["Poruka"] != null)
-            {
-               
-            }
+            ViewData["cijena"]=cijena;
                 var userid = _userManager.GetUserId(HttpContext.User);
             var korpaIds = _context.Korpa
                                .Where(k => k.Idkorisnik == userid)
@@ -129,14 +126,36 @@ namespace ModernHome.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Idkorisnik,vrijemeNarudzbe,stanjeIsporuke,Idkorpa, cijena")] Narudzba narudzba)
         {
+            
             narudzba.vrijemeNarudzbe = DateTime.Now;
-            if (ModelState.IsValid)
+
+            
+            var userId = _userManager.GetUserId(HttpContext.User);
+
+           
+            var korpa = await _context.Korpa.FirstOrDefaultAsync(k => k.Idkorisnik == userId);
+
+            if (korpa != null)
             {
-                _context.Add(narudzba);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+
+                var stavkeNarudzbe = await _context.StavkaNarudzbe
+                    .Where(s => s.Idkorpa == korpa.Id)
+                    .ToListAsync();
+
+
+                double ukupnaCijena = stavkeNarudzbe.Sum(s => s.cijena * s.kolicina);
+
+
+                narudzba.cijena = ukupnaCijena;
             }
-            return View(narudzba);
+                if (ModelState.IsValid)
+                {
+                    _context.Add(narudzba);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
+                return View(narudzba);
+            
         }
 
         // GET: Narudzba/Edit/5
