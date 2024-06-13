@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.CodeAnalysis.Scripting;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages;
 using ModernHome.Data;
 using ModernHome.Models;
 
@@ -15,9 +18,10 @@ namespace ModernHome.Controllers
     public class NarudzbaController : Controller
     {
         private readonly ApplicationDbContext _context;
-
-        public NarudzbaController(ApplicationDbContext context)
+        private readonly UserManager<IdentityUser> _userManager;
+        public NarudzbaController(UserManager<IdentityUser> userManager, ApplicationDbContext context)
         {
+            _userManager= userManager;
             _context = context;
         }
 
@@ -50,7 +54,72 @@ namespace ModernHome.Controllers
         [Authorize(Roles = "Administrator, Korisnik")]
         public IActionResult Create()
         {
+            if (ViewData["Poruka"] != null)
+            {
+               
+            }
+                var userid = _userManager.GetUserId(HttpContext.User);
+            var korpaIds = _context.Korpa
+                               .Where(k => k.Idkorisnik == userid)
+                               .Select(k => k.Id)
+                               .ToList();
+            var KorpaID = "";
+            if (korpaIds != null && korpaIds.Any())
+            {
+                // Convert the first element to string
+                KorpaID = korpaIds.First().ToString();
+            }
+            else
+            {
+                // Initialize KorpaID with a default value in case korpaIds is null or empty
+                KorpaID = "";
+            }
+            ViewData["Idkorpa"] = KorpaID;
+            //ViewData["cijena"] = cijena;
+
+            ViewData["korisnik"]=userid;
+            //return View();
+            bool nemaNaStanju = false;
+            var stavkeNarudzbe = _context.StavkaNarudzbe
+                                    .Where(s => s.Idkorpa == Convert.ToInt32(KorpaID))
+                                    .ToList();
+
+            // Ažuriranje količina stavki
+            foreach (var stavka in stavkeNarudzbe)
+            {
+                // Pronalazak odgovarajućeg artikla
+                var artikal = _context.Artikal.Find(stavka.Idartikal);
+
+                if (artikal != null)
+                {
+                    if (artikal.kolicina < stavka.kolicina)
+                    {
+                        nemaNaStanju = true;
+                        ViewData["Poruka"] = "Nema dovoljno zaliha za artikal: " + artikal.naziv;
+                        break;
+                    }
+                    else
+                    {
+                        artikal.kolicina -= stavka.kolicina;
+                    }
+                    // Možete dodati dodatne logike ovdje, ako je potrebno
+
+                    // Ažuriranje stanja u bazi podataka
+                    _context.Update(artikal);
+                }
+            }
+            if (nemaNaStanju)
+            {
+                //ModelState.AddModelError(nameof(Artikal.kolicina), "Nedovoljno artikala na stanju za ovu narudzbu");
+                return RedirectToAction("Index", "StavkaNarudzbe");
+            }
+           
+
+            // Čuvanje promjena u bazi podataka
+            _context.SaveChanges();
+
             return View();
+
         }
 
         // POST: Narudzba/Create
@@ -58,8 +127,9 @@ namespace ModernHome.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Idkorisnik,vrijemeNarudzbe,stanjeIsporuke,Idkorpa")] Narudzba narudzba)
+        public async Task<IActionResult> Create([Bind("Id,Idkorisnik,vrijemeNarudzbe,stanjeIsporuke,Idkorpa, cijena")] Narudzba narudzba)
         {
+            narudzba.vrijemeNarudzbe = DateTime.Now;
             if (ModelState.IsValid)
             {
                 _context.Add(narudzba);
@@ -159,4 +229,5 @@ namespace ModernHome.Controllers
             return _context.Narudzba.Any(e => e.Id == id);
         }
     }
+
 }

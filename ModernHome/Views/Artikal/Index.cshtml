@@ -11,6 +11,12 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+    @if (ViewData["Poruka"] != null)
+    {
+        <script>
+            alert('@ViewData["Poruka"]');
+        </script>
+    }
 <table class="table">
     <thead>
         <tr>

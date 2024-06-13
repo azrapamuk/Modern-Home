@@ -15,6 +15,7 @@ namespace ModernHome.Models
         [ForeignKey("Korpa")]
         public int Idkorpa { get; set; }
         //public Korpa korpa { get; set; }
+        public double cijena { get; set; }
         public Narudzba() { }
 
     }

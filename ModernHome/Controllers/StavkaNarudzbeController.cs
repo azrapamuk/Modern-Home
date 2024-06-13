@@ -38,6 +38,11 @@ namespace ModernHome.Controllers
                                              .Where(s => s.Idkorpa == Convert.ToInt32(KorpaID))
                                              .ToListAsync();
 
+            ViewBag.KorpaID = filteredData;
+            if (TempData["Poruka"] != null)
+            {
+                ViewBag.Poruka = TempData["Poruka"].ToString();
+            }
 
             return View(filteredData);
         }
@@ -70,7 +75,7 @@ namespace ModernHome.Controllers
         [Authorize(Roles = "Korisnik, Administrator")]
         public  IActionResult Create(int Idartikal, double cijena)
          {
-
+            
             ViewData["Idartikal"] = Idartikal;
             ViewData["cijena"] = cijena;
             var userid = _userManager.GetUserId(HttpContext.User);
@@ -91,7 +96,7 @@ namespace ModernHome.Controllers
                 KorpaID = "";
             }
             ViewData["KorpaID"] = KorpaID;
-
+            
             return View();
 
         }

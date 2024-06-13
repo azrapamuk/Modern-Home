@@ -2,13 +2,43 @@
 
 @{
     ViewData["Title"] = "Index";
-}
 
+}
+<style>
+    /* Stil za container koji će držati sve tri komponente */
+    #bottomBar {
+        display: flex;
+        justify-content: space-between; /* Razmak između komponenti */
+        align-items: center; /* Centralizovanje vertikalno */
+        margin-top: 10px;
+    }
+
+    /* Stil za ukupnu cijenu */
+    #totalPriceContainer {
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #f5f5f5;
+    }
+
+    /* Stil za labelu ukupne cijene */
+    #totalPriceLabel {
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    /* Stil za vrijednost ukupne cijene */
+    #totalPriceValue {
+        font-size: 1.2em;
+    }
+    
+</style>
 <h1>Index</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+
 <table class="table">
     <thead>
         <tr>
@@ -36,7 +66,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.kolicina)
             </td>
-            <td>
+                <td class="price">
                 @Html.DisplayFor(modelItem => item.cijena)
             </td>
             <td>
@@ -52,5 +82,44 @@
             </td>
         </tr>
 }
+        
+
+
     </tbody>
 </table>
+<!--<form method="post" asp-controller="Narudzba" asp-action="Create" id="createOrderForm">
+    <input type="hidden" name="Idkorpa" id="Idkorpa" value="@ViewBag.KorpaID" />
+    <input type="hidden" name="Cijena" id="Cijena" value="" />
+    <button type="submit">Kreiraj Narudzbu</button>
+</form>-->
+<a asp-controller="Narudzba" asp-action="Create" asp-route-cijena=""><button type="submit">Kreiraj narudzbu</button></a>
+
+<div id="bottomBar">
+    <a asp-controller="Artikal" asp-action="Index"><button type="button">Nazad na artikle</button></a>
+    <div id="totalPriceContainer">
+        <label id="totalPriceLabel">Ukupna cijena: </label>
+        <span id="totalPriceValue"></span>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            updateTotalPrice();
+
+        
+        
+                });
+
+        function updateTotalPrice() {
+            var total = 0;
+            var prices = document.querySelectorAll('.price');
+            prices.forEach(function (price) {
+                total += parseFloat(price.textContent) || 0;
+            });
+            var totalPriceSpan = document.getElementById('totalPriceValue');
+            totalPriceSpan.textContent = total.toFixed(2);
+        }
+    </script>
+}

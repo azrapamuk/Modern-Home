@@ -96,7 +96,7 @@
         }
         var cijenaArtikla = parseFloat("@ViewBag.cijena".replace(",", "."));
         if (!isNaN(kolicina) && !isNaN(cijenaArtikla)) {
-            document.getElementById("cijena").value = (kolicina * cijenaArtikla).toFixed(2);
+            document.getElementById("cijena").value = (kolicina * cijenaArtikla);
         } else {
             document.getElementById("cijena").value = "";
         }

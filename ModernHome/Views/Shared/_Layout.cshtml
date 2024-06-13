@@ -53,7 +53,7 @@
                         @if (User.Identity.IsAuthenticated && (!User.IsInRole("Administrator") && !User.IsInRole("Zaposlenik")))
                         {
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Korpa" asp-action="Index">Korpa</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="StavkaNarudzbe" asp-action="Index">Korpa</a>
                         </li>
                         }
                         @if (User.Identity.IsAuthenticated)
