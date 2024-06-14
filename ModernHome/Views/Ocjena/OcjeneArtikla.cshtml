@@ -20,35 +20,39 @@
         return user?.UserName;
     }
 
+    double averageRating = Model.Any() ? Model.Average(o => (int)o.ocjena+1) : 0;
+
 }
 @{
 
     ViewData["Title"] = "OcjeneArtikla";
 
 }
-
+<body style="background-color:#C4A693">
+    <a asp-controller="Artikal" asp-action="Details" asp-route-id="@ViewBag.ocjenaid" style="color:#fff; text-decoration:none;">← Nazad</a>
+    <div style="background-color:#fff; padding:2vw; border-radius: 10px;">
 <h1>Ocjene artikla</h1>
+        <h2>Prosječna ocjena: @averageRating.ToString("0.00")</h2>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.ocjena)
+                Ocjena
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.komentar)
+                Komentar
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.datum)
-            </th>
-            <th>
+           
                 @if (User.IsInRole("Administrator"))
-                {
+                    {
+                        <th>
 
-                    @Html.DisplayNameFor(model => model.Idkorisnik)
+                              @Html.DisplayNameFor(model => model.Idkorisnik)
+                        </th>
                 }
-            </th>
+           
             <th>
-                Korisnicko ime
+                Korisničko ime
             </th>
             <th></th>
         </tr>
@@ -63,37 +67,24 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.komentar)
                 </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.datum)
-                </td>
-                <td>
+               
                     @if (User.IsInRole("Administrator"))
                     {
+                            <td>
                         @Html.DisplayFor(modelItem => item.Idkorisnik)
+                            </td>
                     }
-                </td>
+               
                 <td>
                     @{
                         var username = await GetUserNameAsync(item.Idkorisnik);
                         @username
                     }
                 </td>
-                <td>
-                    @if (User.IsInRole("Administrator") || User.IsInRole("Korisnik"))
-                    {
-                        @if (@SignInManager.UserManager.Users.First(user => user.UserName == User.Identity.Name).Id == item.Idkorisnik || isAdmin)
-                        {
-                            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
-                            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-                        }
-                    }<a asp-action="Details" asp-route-id="@item.Id">Details</a>
-
-
-                </td>
 
             </tr>
         }
-        <a asp-controller="Artikal" asp-action="Details" asp-route-id="@ViewBag.ocjenaid">Back to list</a>
     </tbody>
 </table>
-
+</div>
+</body>

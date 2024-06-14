@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "Details";
+    var dimenzije = ViewBag.Dimenzije as ModernHome.Models.Dimenzije;
 }
 
 <body style="background-color:#C4A693;">
@@ -36,7 +37,7 @@
 
                 <p class="col-sm-2" style="width: 100%">
                     Dimenzije:
-                    @Html.DisplayFor(model => model.Iddimenzije)
+                    @Html.DisplayFor(model => dimenzije.visina) cm x  @Html.DisplayFor(model => dimenzije.sirina) cm x  @Html.DisplayFor(model => dimenzije.duzina) cm 
                 </p>
 
                 <div style="margin-top: 20px; text_decoration:none;">

@@ -16,7 +16,7 @@ namespace ModernHome.Models
         zelena,
         [Display(Name = "Plava boja")]  //4
         plava,
-        [Display(Name = "Ljubičasta boja")]  //4
+        [Display(Name = "Ljubičasta boja")]  //5
         ljubicasta,
         [Display(Name = "Roza boja")]  //6
         roza,
@@ -29,6 +29,6 @@ namespace ModernHome.Models
         [Display(Name = "Smeđa boja")]  //10
         smedja,
         [Display(Name = "Bež boja")]  //11
-        bez
+        bez,
     }
 }

@@ -62,6 +62,10 @@ namespace ModernHome.Controllers
                 return NotFound();
             }
 
+            var artikal = await _context.Artikal.FindAsync(stavkaNarudzbe.Idartikal);
+            ViewBag.Artikal = artikal; // You can use ViewBag or a ViewModel pattern here
+
+
             return View(stavkaNarudzbe);
         }
 
@@ -131,6 +135,10 @@ namespace ModernHome.Controllers
             {
                 return NotFound();
             }
+
+            var artikal = await _context.Artikal.FindAsync(stavkaNarudzbe.Idartikal);
+            ViewBag.Artikal = artikal; // You can use ViewBag or a ViewModel pattern here
+
             return View(stavkaNarudzbe);
         }
 
@@ -184,6 +192,9 @@ namespace ModernHome.Controllers
                 return NotFound();
             }
 
+            var artikal = await _context.Artikal.FindAsync(stavkaNarudzbe.Idartikal);
+            ViewBag.Artikal = artikal; // You can use ViewBag or a ViewModel pattern here
+
             return View(stavkaNarudzbe);
         }
 
@@ -197,6 +208,7 @@ namespace ModernHome.Controllers
             {
                 _context.StavkaNarudzbe.Remove(stavkaNarudzbe);
             }
+
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));

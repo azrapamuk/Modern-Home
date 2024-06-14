@@ -149,7 +149,10 @@ namespace ModernHome.Controllers
                  return NotFound();
              }
 
-             return View(artikal);
+            var dimenzije = await _context.Dimenzije.FindAsync(artikal.Iddimenzije);
+            ViewBag.Dimenzije = dimenzije; 
+
+            return View(artikal);
         }
 
         public IActionResult FilterNaziv(string query)

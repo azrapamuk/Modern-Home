@@ -3,13 +3,14 @@
 @{
     ViewData["Title"] = "Index";
 
+
 }
 <style>
     /* Stil za container koji će držati sve tri komponente */
     #bottomBar {
         display: flex;
         justify-content: space-between; /* Razmak između komponenti */
-        align-items: center; /* Centralizovanje vertikalno */
+        align-items: right; /* Centralizovanje vertikalno */
         margin-top: 10px;
     }
 
@@ -33,28 +34,26 @@
     }
     
 </style>
-<h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+<body style="background-color:#C4A693">
+    <a asp-controller="Artikal" asp-action="Index" style="color:#fff; text-decoration:none; font-size: 3vh;">← Nazad na artikle</a>
+
+    <div style="border-radius:5px; background-color:#fff; padding:4vw;">
+<h1>Vaša korpa</h1>
+
 
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Idartikal)
+                ID artikla
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.kolicina)
+                Količina
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.cijena)
+                Cijena
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Idkorpa)
-            </th>
-            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -67,17 +66,13 @@
                 @Html.DisplayFor(modelItem => item.kolicina)
             </td>
                 <td class="price">
-                @Html.DisplayFor(modelItem => item.cijena)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Idkorpa)
+                @Html.DisplayFor(modelItem => item.cijena) KM
             </td>
             <td>
                     @if (User.IsInRole("Administrator") || User.IsInRole("Korisnik"))
                     {
-                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> <nobr>|</nobr>
-                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> <nobr>|</nobr>
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        <a asp-action="Edit" asp-route-id="@item.Id" style="color:black;">Pregled</a> <nobr>|</nobr>
+                        <a asp-action="Delete" asp-route-id="@item.Id" style="color:black;">Obriši</a>
                 }
             </td>
         </tr>
@@ -92,16 +87,24 @@
     <input type="hidden" name="Cijena" id="Cijena" value="" />
     <button type="submit">Kreiraj Narudzbu</button>
 </form>-->
-<a asp-controller="Narudzba" asp-action="Create" ><button type="submit">Kreiraj narudzbu</button></a>
+        <div id="bottomBar">
 
-<div id="bottomBar">
-    <a asp-controller="Artikal" asp-action="Index"><button type="button">Nazad na artikle</button></a>
-    <div id="totalPriceContainer">
-        <label id="totalPriceLabel">Ukupna cijena: </label>
-        <span id="totalPriceValue"></span>
-    </div>
+            <div style="text-align: center; flex: 1;">
+                <a asp-controller="Narudzba" asp-action="Create">
+                    <button type="submit" style="background-color:#222222; color: #fff; border:none; font-size:3vh; margin-top:2vh; border-radius: 3px;">
+                        Kreiraj narudžbu
+                    </button>
+                </a>
+            </div>
+
+            <div id="totalPriceContainer">
+                <label id="totalPriceLabel">Ukupna cijena: </label>
+                <span id="totalPriceValue"></span>
+            </div>
+        </div>
 </div>
-
+</div>
+</body>
 
 @section Scripts {
     <script>

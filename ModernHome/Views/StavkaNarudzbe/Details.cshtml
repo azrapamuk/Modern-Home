@@ -2,9 +2,9 @@
 
 @{
     ViewData["Title"] = "Details";
+    var artikal = ViewBag.Artikal as ModernHome.Models.Artikal;
 }
 
-<h1>Details</h1>
 
 <div>
     <h4>StavkaNarudzbe</h4>
@@ -22,6 +22,11 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.kolicina)
         </dd>
+        <dt class="col-sm-2">
+            Naziv Artikla
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => artikal.naziv)
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.cijena)
         </dt>
@@ -35,6 +40,7 @@
             @Html.DisplayFor(model => model.Idkorpa)
         </dd>
     </dl>
+    <img src="@artikal.slika" alt="Artikal Image" />
 </div>
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |

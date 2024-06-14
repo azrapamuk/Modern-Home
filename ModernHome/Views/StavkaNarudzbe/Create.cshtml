@@ -43,45 +43,37 @@
     <a asp-action="Index">Back to List</a>
 </div>-->
 
-<h1>Create</h1>
 
-<h4>StavkaNarudzbe</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
+<body style="background-color:#C4A693">
+
+    <a asp-controller="Artikal" asp-action="Index" style="color:#fff; text-decoration:none; font-size: 3vh;">← Nazad na artikle</a>
+    <div class="row" style="background-color:#fff; border-radius:12px; padding:2vw;">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-               <!-- <label asp-for="Idartikal" class="control-label"></label>-->
                 <input type="hidden" asp-for="Idartikal" value="@ViewBag.Idartikal" asp-validation-for="Idartikal" />
                 <span asp-validation-for="Idartikal" class="text-danger"></span>
-                <!--<input asp-for="Idartikal" class="form-control" readonly />-->
             </div>
             <div class="form-group">
-                <label asp-for="kolicina" class="control-label"></label>
+                <label asp-for="kolicina" class="control-label">Količina</label>
                 <input asp-for="kolicina" class="form-control" id="kolicina" value="1" min="1" />
                 <span asp-validation-for="kolicina" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="cijena" class="control-label"></label>
+                <label asp-for="cijena" class="control-label">Cijena</label>
                 <input asp-for="cijena" class="form-control" id="cijena" readonly />
                 <span asp-validation-for="cijena" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input  asp-for="Idkorpa" value="@ViewBag.KorpaID" asp-validation-for="Idkorpa" />
+                <input  type="hidden"asp-for="Idkorpa" value="@ViewBag.KorpaID" asp-validation-for="Idkorpa" />
                 <span asp-validation-for="Idkorpa" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Dodaj u korpu" class="btn btn-primary" style="background-color:#222222; color: #fff; border:none; font-size:3vh; margin-top:2vh; border-radius: 3px;" />
             </div>
         </form>
     </div>
-</div>
-<p>Preneseni artikal: @ViewBag.Idartikal</p>
-<p>Preneseni idKorpe: @ViewBag.KorpaID</p>
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+</body>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

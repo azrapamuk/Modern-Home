@@ -106,6 +106,9 @@ namespace ModernHome.Controllers
                 return RedirectToAction("Details", "Artikal", new { id });
             }
 
+            var artikal = await _context.Artikal.FindAsync(id);
+            ViewBag.Artikal = artikal;
+
             ViewBag.Idkorisnik = korisnik;
             ViewBag.Idartikal = id;
             return View();
