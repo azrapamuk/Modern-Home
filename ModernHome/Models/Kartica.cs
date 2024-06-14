@@ -17,7 +17,7 @@ namespace ModernHome.Models
         [RegularExpression(@"^\d{3}$", ErrorMessage = "Broj CVV mora sadržavati 3 cifare.")]
         [Required]
         public string CVV { get; set; }
-        [DisplayName("Datum isteka (mm/yyyy)")]
+        [DisplayName("Datum isteka (mm/yy)")]
         [ValidateDate]
         [Required]
         public string datumIsteka { get; set; }

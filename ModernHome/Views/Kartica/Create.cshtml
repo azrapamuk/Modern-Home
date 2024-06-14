@@ -6,12 +6,10 @@
 
 <h1 style="font-weight:bold;">Plaćanje</h1>
 
-
 <body style="background-color:#C4A693">
-    
     <a asp-controller="Artikal" asp-action="Index" style="color:#fff; text-decoration:none; font-size: 3vh;">← Nazad na artikle</a>
     <div class="row" style="background-color:#fff; border-radius:12px; padding:2vw;">
-        <form asp-action="Create">
+        <form id="paymentForm">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="brojKartice" class="control-label"></label>
@@ -28,19 +26,61 @@
                 <input asp-for="datumIsteka" class="form-control" />
                 <span asp-validation-for="datumIsteka" class="text-danger"></span>
             </div>
-            <!--<div class="form-group">
-                <label asp-for="Idkorisnik" class="control-label"></label>
-                <input asp-for="Idkorisnik" class="form-control" />
-                <span asp-validation-for="Idkorisnik" class="text-danger"></span>
-            </div>-->
         </form>
+        <a href="#" id="submitPayment" style="background-color:#222222; color: #fff; border:none; font-size:3vh; margin-top:2vh; border-radius: 3px; padding: 10px; text-decoration: none;">Završi plaćanje</a>
     </div>
-  
 </body>
 
-    <a asp-controller="Kartica" asp-action="UspjesnoPlacanje"><button type="submit" style="background-color:#222222; color: #fff; border:none; font-size:3vh; margin-top:2vh; border-radius: 3px;">Završi plaćanje</button></a>
-
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#submitPayment').on('click', function (e) {
+                e.preventDefault(); // Prevent the default anchor behavior
+                var isValid = true;
+
+                // Validate card number (16 digits)
+                var cardNumber = $('#brojKartice').val();
+                if (!/^\d{16}$/.test(cardNumber)) {
+                    isValid = false;
+                    alert('Broj kartice mora imati 16 cifara.');
+                }
+
+                // Validate CVV (3 digits)
+                var cvv = $('#CVV').val();
+                if (!/^\d{3}$/.test(cvv)) {
+                    isValid = false;
+                    alert('CVV mora imati 3 cifre.');
+                }
+
+                // Validate expiration date (MM/YY) and must be in the future
+                var expiryDate = $('#datumIsteka').val();
+                var regex = /^(0[1-9]|1[0-2])\/(\d{2})$/;
+                if (!regex.test(expiryDate)) {
+                    isValid = false;
+                    alert('Datum isteka mora biti u formatu MM/YY.');
+                } else {
+                    var parts = expiryDate.split('/');
+                    var month = parseInt(parts[0], 10);
+                    var year = parseInt('20' + parts[1], 10);
+                    var now = new Date();
+                    var currentYear = now.getFullYear();
+                    var currentMonth = now.getMonth() + 1;
+
+                    if (year < currentYear || (year === currentYear && month < currentMonth)) {
+                        isValid = false;
+                        alert('Datum isteka mora biti u budućnosti.');
+                    }
+                }
+
+                if (isValid) {
+                    // If all validations pass, navigate to the successful payment page
+                    window.location.href = '@Url.Action("UspjesnoPlacanje", "Kartica")';
+                }
+            });
+        });
+    </script>
 }

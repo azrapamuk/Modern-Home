@@ -11,7 +11,7 @@ namespace ModernHome.Utility
             {
                 string expiryDate = value.ToString();
                 DateTime dateTime;
-                bool isValidFormat = DateTime.TryParseExact(expiryDate, "MM/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out dateTime);
+                bool isValidFormat = DateTime.TryParseExact(expiryDate, "MM/yy", CultureInfo.InvariantCulture, DateTimeStyles.None, out dateTime);
 
                 if (isValidFormat && dateTime > DateTime.Now)
                 {

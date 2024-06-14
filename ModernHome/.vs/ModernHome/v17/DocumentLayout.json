@@ -1,9 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\",
+  "WorkspaceRootPath": "C:\\Users\\alilj\\Desktop\\Aplikacija-OOADprojekt\\ModernHome\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\korisnik\\documents\\github\\tim32_modern_home\\modernhome\\controllers\\artikalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\aplikacija-ooadprojekt\\modernhome\\views\\kartica\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:views\\kartica\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\aplikacija-ooadprojekt\\modernhome\\models\\kartica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:models\\kartica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\aplikacija-ooadprojekt\\modernhome\\views\\artikal\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:views\\artikal\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\aplikacija-ooadprojekt\\modernhome\\utility\\validatedate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:utility\\validatedate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\aplikacija-ooadprojekt\\modernhome\\controllers\\artikalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:controllers\\artikalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,15 +30,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\Aplikacija-OOADprojekt\\ModernHome\\Views\\Artikal\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Artikal\\Create.cshtml",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\Aplikacija-OOADprojekt\\ModernHome\\Views\\Artikal\\Create.cshtml",
+              "RelativeToolTip": "Views\\Artikal\\Create.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T15:12:25.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Kartica.cs",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\Aplikacija-OOADprojekt\\ModernHome\\Models\\Kartica.cs",
+              "RelativeDocumentMoniker": "Models\\Kartica.cs",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\Aplikacija-OOADprojekt\\ModernHome\\Models\\Kartica.cs",
+              "RelativeToolTip": "Models\\Kartica.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T15:03:01.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ValidateDate.cs",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\Aplikacija-OOADprojekt\\ModernHome\\Utility\\ValidateDate.cs",
+              "RelativeDocumentMoniker": "Utility\\ValidateDate.cs",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\Aplikacija-OOADprojekt\\ModernHome\\Utility\\ValidateDate.cs",
+              "RelativeToolTip": "Utility\\ValidateDate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T15:00:49.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\Aplikacija-OOADprojekt\\ModernHome\\Views\\Kartica\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Kartica\\Create.cshtml",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\Aplikacija-OOADprojekt\\ModernHome\\Views\\Kartica\\Create.cshtml",
+              "RelativeToolTip": "Views\\Kartica\\Create.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:48:18.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ArtikalController.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\Controllers\\ArtikalController.cs",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\Aplikacija-OOADprojekt\\ModernHome\\Controllers\\ArtikalController.cs",
               "RelativeDocumentMoniker": "Controllers\\ArtikalController.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\Controllers\\ArtikalController.cs",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\Aplikacija-OOADprojekt\\ModernHome\\Controllers\\ArtikalController.cs",
               "RelativeToolTip": "Controllers\\ArtikalController.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAQwBcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
