@@ -209,8 +209,7 @@ namespace ModernHome.Controllers
         }
 
         // GET: Artikal/Edit/5
-        [Authorize(Roles = "Administrator")]
-        [Authorize(Roles = "Uposlenik")]
+        [Authorize(Roles = "Administrator, Uposlenik")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -233,8 +232,7 @@ namespace ModernHome.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Administrator")]
-        [Authorize(Roles = "Uposlenik")]
+        [Authorize(Roles = "Administrator, Uposlenik")]
         public async Task<IActionResult> Edit(int id, [Bind("Id,naziv,tip,boja,kolicina,cijena,Iddimenzije,slika")] Artikal artikal)
         {
             if (id != artikal.Id)
