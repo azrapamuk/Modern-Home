@@ -124,7 +124,7 @@ style="position:relative;width:1280px;height:400px;"></div>
         function GetMap() {
             var map = new Microsoft.Maps.Map('#myMap', {
                 credentials: 'AhlvLdNA8tcTDE4Hy3HBSNm6NKDvf-RFJVywZ_IZtyn0FuzrcLEHQvHokGW8W-wD', // Vaš Bing Maps ključ
-                center: new Microsoft.Maps.Location(43.85047300398563, 18.359026462157104), // Koordinate Sarajeva
+            center: new Microsoft.Maps.Location(43.84842041867298, 18.383308609714383), // Koordinate Sarajeva
                 mapTypeId: Microsoft.Maps.MapTypeId.road, // Tip mape
                 zoom: 15 // Nivo zumiranja
             });
@@ -136,7 +136,7 @@ style="position:relative;width:1280px;height:400px;"></div>
             infobox.setMap(map);
 
             // Kreiranje pina za lokaciju
-            var etfLocation = new Microsoft.Maps.Location(43.85047300398563, 18.359026462157104);
+        var etfLocation = new Microsoft.Maps.Location(43.84842041867298, 18.383308609714383);
             var pin = new Microsoft.Maps.Pushpin(etfLocation);
 
             // Metadata za pin

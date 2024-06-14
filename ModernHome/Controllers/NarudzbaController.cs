@@ -54,6 +54,7 @@ namespace ModernHome.Controllers
         [Authorize(Roles = "Administrator, Korisnik")]
         public IActionResult Create()
         {
+
             var userid = _userManager.GetUserId(HttpContext.User);
             var korpaIds = _context.Korpa
                                .Where(k => k.Idkorisnik == userid)
@@ -111,11 +112,22 @@ namespace ModernHome.Controllers
             }
 
 
+            var stavkeNarudzbe1 = _context.StavkaNarudzbe
+                .Where(s => s.Idkorpa == Convert.ToInt32(KorpaID))
+                .ToList();
+
+
+            double ukupnaCijena = stavkeNarudzbe.Sum(s => s.cijena * s.kolicina);
+
+            ViewData["Ucijena"] = ukupnaCijena;
+
+
+
             // Čuvanje promjena u bazi podataka
             _context.SaveChanges();
 
-            return View();
 
+            return View();
         }
 
         // POST: Narudzba/Create
@@ -144,7 +156,7 @@ namespace ModernHome.Controllers
 
                 double ukupnaCijena = stavkeNarudzbe.Sum(s => s.cijena * s.kolicina);
 
-
+                ViewData["cijena"] = ukupnaCijena;
                 narudzba.cijena = ukupnaCijena;
             }
             if (ModelState.IsValid)
@@ -251,6 +263,7 @@ namespace ModernHome.Controllers
             ViewData["Poruka"] = TempData["Poruka"];
             return View();
         }
+       
 
     }
 }

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace ModernHome.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class migracija : Migration
+    public partial class Migracija : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

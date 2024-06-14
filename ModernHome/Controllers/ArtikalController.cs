@@ -14,7 +14,7 @@ namespace ModernHome.Controllers
 {
     public class ArtikalController : Controller
     {
-        private readonly UserManager<IdentityUser> _userManager;
+        //private readonly UserManager<IdentityUser> _userManager;
         private readonly ApplicationDbContext _context;
 
         public ArtikalController(ApplicationDbContext context)

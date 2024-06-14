@@ -4,8 +4,15 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Narudžbe</h1>
 
+@if (User.IsInRole("Korisnik"))
+{
+    <div>
+        <h4>Vaša narudžba je uspješno kreirana. </h4>
+    </div>
+}
+@if (User.IsInRole("Administrator") || User.IsInRole("Uposlenik")){
 <p>
     <a asp-action="Create">Create New</a>
 </p>
@@ -60,6 +67,7 @@
 }
     </tbody>
 </table>
-
-<a asp-controller="Kartica" asp-action="Create"><button type="submit">Pređite na plaćanje</button></a>
-
+}
+@if (User.IsInRole("Korisnik")){
+    <a asp-controller="Kartica" asp-action="Create"><button type="submit" style="background-color:#222222; color: #fff; border:none; font-size:3vh; margin-top:2vh; border-radius: 3px;">Pređite na plaćanje</button></a>
+}

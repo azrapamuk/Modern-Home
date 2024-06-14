@@ -13,7 +13,7 @@ namespace ModernHome.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20240518081558_migracija")]
-    partial class migracija
+    partial class Migracija
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
