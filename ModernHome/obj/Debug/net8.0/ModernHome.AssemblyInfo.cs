@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ModernHome")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d96a9a9d0fe6ba5a0fd41cf0a02eef72781a9c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd41b99e57c9be63e1a71edcfdd496ac82d4a7ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("ModernHome")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ModernHome")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
