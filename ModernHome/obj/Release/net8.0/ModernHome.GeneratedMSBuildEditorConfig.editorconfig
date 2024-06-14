@@ -38,10 +38,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -56,18 +52,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/Logout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
@@ -148,10 +132,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/ResetPassword.cshtml]
@@ -260,6 +240,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Kartica/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FydGljYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Kartica/UspjesnoPlacanje.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FydGljYVxVc3BqZXNub1BsYWNhbmplLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Korpa/Create.cshtml]

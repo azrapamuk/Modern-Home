@@ -5,24 +5,30 @@ namespace ModernHome.Models
 {
     public enum Boje
     {
-        [Display(Name="Crna boja")]
-        crna,
-        [Display(Name = "Bijela boja")]
-        bijela,
-        [Display(Name = "Bež boja")]
-        bež,
-        [Display(Name = "Smeđa boja")]
-        smeđa,
-        [Display(Name = "Plava boja")]
-        plava,
-        [Display(Name ="Crvena boja")]
-        crvena,
-        [Display(Name = "Žuta boja")]
-        žuta,
-        [Display(Name = "Zelena boja")]
-        zelena,
-        [Display(Name = "Narandžasta boja")]
-        narandžasta
 
+        [Display(Name = "Crvena boja")]  //0
+        crvena,
+        [Display(Name = "Narandžasta boja")]  //1
+        narandzasta,
+        [Display(Name = "Žuta boja")]  //2
+        zuta,
+        [Display(Name = "Zelena boja")]  //3
+        zelena,
+        [Display(Name = "Plava boja")]  //4
+        plava,
+        [Display(Name = "Ljubičasta boja")]  //4
+        ljubicasta,
+        [Display(Name = "Roza boja")]  //6
+        roza,
+        [Display(Name = "Bijela boja")]  //7
+        bijela,
+        [Display(Name = "Siva boja")]  //8
+        siva,
+        [Display(Name = "Crna boja")]  //9
+        crna,
+        [Display(Name = "Smeđa boja")]  //10
+        smedja,
+        [Display(Name = "Bež boja")]  //11
+        bez
     }
 }

@@ -4,60 +4,59 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<body style="background-color:#C4A693;">
+    <div>
+        <a asp-action="Index" style="color:#fff; text-decoration:none; font-size: 3vh;">← Nazad</a>
+    </div>
 
-<div>
-    <h4>Artikal</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.naziv)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.naziv)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.tip)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.tip)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.boja)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.boja)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.kolicina)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.kolicina)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.cijena)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.cijena)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Iddimenzije)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Iddimenzije)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.slika)
-        </dt>
-        <dd class = "col-sm-10">
-            <img src="@Url.Content(Model.slika)" alt="cover" width="450" height="350" />
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-    <a asp-controller="StavkaNarudzbe" asp-action="Create" asp-route-Idartikal="@Model.Id" asp-route-cijena="@Model.cijena"><button type="submit">Dodaj u korpu</button></a>
-    <a asp-controller="Ocjena" asp-action="OcijeniArtikal" asp-route-id="@Model.Id"><button type="submit">Ocijeni ovaj artikal</button></a>
-    <a asp-controller="Ocjena" asp-action="OcjeneArtikla" asp-route-id="@Model.Id"><button type="submit">Pregled ocjena artikla</button></a>
-</div>
+    <div style="background-color:#fff; border-radius:12px; padding:2vw; display: flex; align-items: center;">
+        <div style="flex: 1; padding-right: 20px;">
+            <div class="row">
+                <p class="col-sm-10" style="font-weight:bold; font-size: 10vh; width:100%;">
+                    @Html.DisplayFor(model => model.naziv)
+                </p>
+                @if (User.IsInRole("Administrator") || User.IsInRole("Uposlenik"))
+                {
+                    <p class="col-sm-10" style="width:100%; font-size:3vh;">
+                        Kategorija: @Html.DisplayFor(model => model.tip)
+                    </p>
+                    <p class="col-sm-10" style="width:100%; font-size:3vh;">
+                         @Html.DisplayFor(model => model.boja)
+                    </p>
+                    <p class="col-sm-2" style="font-size:3vh;width:100%;">
+                        Količina na stanju: @Html.DisplayFor(model => model.kolicina)
+                    </p>
+                }
+
+                <p class="col-sm-2" style="font-size:7vh; color:#C6324C; font-weight:bold; width: 100%">
+                    @Html.DisplayFor(model => model.cijena) KM
+                </p>
+
+
+
+                <p class="col-sm-2" style="width: 100%">
+                    Dimenzije:
+                    @Html.DisplayFor(model => model.Iddimenzije)
+                </p>
+
+                <div style="margin-top: 20px; text_decoration:none;">
+                    @if (User.IsInRole("Korisnik"))
+                    {
+                        <a asp-controller="StavkaNarudzbe" asp-action="Create" asp-route-Idartikal="@Model.Id" asp-route-cijena="@Model.cijena">
+                            <button type="submit" style="background-color:#222222; color: #fff; border:none; font-size:3vh; margin-top:2vh; border-radius: 5px;">Dodaj u korpu</button>
+                        </a>
+                        <a asp-controller="Ocjena" asp-action="OcijeniArtikal" asp-route-id="@Model.Id">
+                            <button type="submit" style="background-color:#222222; color: #fff; border:none; font-size:3vh; margin-top:2vh; border-radius: 5px;">Ocijeni artikal</button>
+                        </a>
+                    }
+                    <a asp-controller="Ocjena" asp-action="OcjeneArtikla" asp-route-id="@Model.Id">
+                        <button type="submit" style="background-color:#222222; color: #fff; border:none; font-size:3vh; margin-top:2vh; border-radius: 5px;">Pregled ocjena</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div style="flex: 1; text-align: center;">
+            <img src="@Url.Content(Model.slika)" alt="cover" style="max-width: 100%; height: auto; border-radius: 12px;" />
+        </div>
+    </div>
+</body>

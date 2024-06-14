@@ -4,63 +4,69 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<body class="allcontentcreate">
 
-<h4>Artikal</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="naziv" class="control-label"></label>
-                <input asp-for="naziv" class="form-control" />
-                <span asp-validation-for="naziv" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="tip" class="control-label"></label>
-                <select asp-for="tip" class="form-control"
-                        asp-items="Html.GetEnumSelectList<TipNamjestaja>()">
-                    <option value="">-- Izaberite tip --</option>
-                </select>
-                <span asp-validation-for="tip" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="boja" class="control-label"></label>
-                <select asp-for="boja" class="form-control"
-                        asp-items="Html.GetEnumSelectList<Boje>()">
-                    <option value="">-- Izaberite boju --</option>
-                </select>
-                <span asp-validation-for="boja" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="kolicina" class="control-label"></label>
-                <input asp-for="kolicina" class="form-control" />
-                <span asp-validation-for="kolicina" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="cijena" class="control-label"></label>
-                <input asp-for="cijena" class="form-control" />
-                <span asp-validation-for="cijena" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Iddimenzije" class="control-label"></label>
-                <input asp-for="Iddimenzije" class="form-control" />
-                <span asp-validation-for="Iddimenzije" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="slika" class="control-label"></label>
-                <input asp-for="slika" class="form-control" />
-                <span asp-validation-for="slika" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Završi plaćanje" class="btn btn-primary" />
-            </div>
-        </form>
+    <div>
+        <a asp-action="Index" style="color:#fff; text-decoration:none; font-size: 3vh;">← Nazad</a>
     </div>
-</div>
+    <div class="row" style="background-color:#fff; border-radius:12px; padding:1vw; justify-content:center;">
+        <div class="col-md-6">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="naziv" class="control-label" style="font-weight:bold;">Naziv</label>
+                    <input asp-for="naziv" class="form-control" style="font-size:3vh;" />
+                    <span asp-validation-for="naziv" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="tip" class="control-label" style="font-weight:bold;">Kategorija</label>
+                    <select asp-for="tip" class="form-control" style="font-size:3vh;"
+                            asp-items="Html.GetEnumSelectList<TipNamjestaja>()">
+                        <option value="">Izaberite kategoriju</option>
+                    </select>
+                    <span asp-validation-for="tip" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="boja" class="control-label" style="font-weight:bold;">Boja</label>
+                    <select asp-for="boja" class="form-control" style="font-size:3vh;"
+                            asp-items="Html.GetEnumSelectList<Boje>()">
+                        <option value="">Izaberite boju</option>
+                    </select>
+                    <span asp-validation-for="boja" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="kolicina" class="control-label" style="font-weight:bold;">Količina na stanju</label>
+                    <input asp-for="kolicina" class="form-control" style="font-size:3vh;" />
+                    <span asp-validation-for="kolicina" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="cijena" class="control-label" style="font-weight:bold;">Cijena</label>
+                    <input asp-for="cijena" class="form-control" style="font-size:3vh;" />
+                    <span asp-validation-for="cijena" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Iddimenzije" class="control-label" style="font-weight:bold;">Dimenzije</label>
+                    <input asp-for="Iddimenzije" class="form-control" style="font-size:3vh;" />
+                    <span asp-validation-for="Iddimenzije" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="slika" class="control-label" style="font-weight:bold;">URL slike</label>
+                    <input asp-for="slika" class="form-control" style="font-size:3vh;" />
+                    <span asp-validation-for="slika" class="text-danger"></span>
+                </div>
+                <div class="form-group" style="text-align:center;">
+                    <input type="submit" value="Potvrdi" class="btn btn-primary" style="background-color:#222222; color:#fff; border:none; font-size:3vh; margin-top:2vh;" />
+                </div>
+            </form>
+        </div>
+    </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+</body>
+
+<style>
+    .allcontentcreate {
+        background-color: #C4A693;
+    }
+
+</style>
 

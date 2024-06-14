@@ -40,6 +40,100 @@ namespace ModernHome.Controllers
             return View(artikli);
         }
 
+        public async Task<IActionResult> SobeFiltriranje(string query)
+        {
+            IQueryable<Artikal> artikliQuery = _context.Artikal;
+
+            switch (query)
+            {
+                case "0":
+                    artikliQuery = artikliQuery.Where(a => a.tip == TipNamjestaja.dnevnasoba);
+                    break;
+                case "1":
+                    artikliQuery = artikliQuery.Where(a => a.tip == TipNamjestaja.kuhinja);
+                    break;
+                case "2":
+                    artikliQuery = artikliQuery.Where(a => a.tip == TipNamjestaja.spavacasoba);
+                    break;
+                case "3":
+                    artikliQuery = artikliQuery.Where(a => a.tip == TipNamjestaja.ured);
+                    break;
+                case "4":
+                    artikliQuery = artikliQuery.Where(a => a.tip == TipNamjestaja.dekoracije);
+                    break;
+                case "5":
+                    artikliQuery = artikliQuery.Where(a => a.tip == TipNamjestaja.razno);
+                    break;
+            }
+
+            var artikli = await artikliQuery.ToListAsync();
+
+            ViewBag.Query = query;
+
+
+            return View("Index", artikli);
+        }
+
+        public async Task<IActionResult> Filtriranje(string query)
+        {
+            IQueryable<Artikal> artikliQuery = _context.Artikal;
+
+            if (query == "00")
+            {
+                artikliQuery = artikliQuery.OrderBy(a => a.cijena);
+            }
+            else if (query == "11")
+            {
+                artikliQuery = artikliQuery.OrderByDescending(a => a.cijena);
+            }
+            else
+            {
+                switch (query)
+                {
+                    case "0":
+                        artikliQuery = artikliQuery.Where(a => a.boja == Boje.crvena);
+                        break;
+                    case "1":
+                        artikliQuery = artikliQuery.Where(a => a.boja == Boje.narandzasta);
+                        break;
+                    case "2":
+                        artikliQuery = artikliQuery.Where(a => a.boja == Boje.zuta);
+                        break;
+                    case "3":
+                        artikliQuery = artikliQuery.Where(a => a.boja == Boje.zelena);
+                        break;
+                    case "4":
+                        artikliQuery = artikliQuery.Where(a => a.boja == Boje.plava);
+                        break;
+                    case "5":
+                        artikliQuery = artikliQuery.Where(a => a.boja == Boje.ljubicasta);
+                        break;
+                    case "6":
+                        artikliQuery = artikliQuery.Where(a => a.boja == Boje.roza);
+                        break;
+                    case "7":
+                        artikliQuery = artikliQuery.Where(a => a.boja == Boje.bijela);
+                        break;
+                    case "8":
+                        artikliQuery = artikliQuery.Where(a => a.boja == Boje.siva);
+                        break;
+                    case "9":
+                        artikliQuery = artikliQuery.Where(a => a.boja == Boje.crna);
+                        break;
+                    case "10":
+                        artikliQuery = artikliQuery.Where(a => a.boja == Boje.smedja);
+                        break;
+                    case "11":
+                        artikliQuery = artikliQuery.Where(a => a.boja == Boje.bez);
+                        break;
+                }
+            }
+
+            var artikli = await artikliQuery.ToListAsync();
+
+            return View("Index", artikli);
+        }
+
         // GET: Artikal/Details/5
         public async Task<IActionResult> Details(int? id)
         {

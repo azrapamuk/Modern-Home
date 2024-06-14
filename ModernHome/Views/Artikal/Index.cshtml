@@ -4,92 +4,171 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<body style="background-color:#C4A693 ">
 
-@if (Model.Any())
-{
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-    @if (ViewData["Poruka"] != null)
-    {
-        <script>
-            alert('@ViewData["Poruka"]');
-        </script>
+    <div class="dropdown" style="float:right; margin-bottom: 2vh;">
+        <a style="color: black; text-decoration:none;  position: relative; color:#ffffff; font-weight: bold; font-size:2.5vh; text-align:right;margin-right:2vw;">Filter ↓</a>
+        <div class="dropdown-content">
+            <a asp-controller="Artikal" asp-action="Filtriranje" asp-route-query="00" style="font-size:1.7vh;">Cijena: najniža-najviša</a>
+            <a asp-controller="Artikal" asp-action="Filtriranje" asp-route-query="11" style="font-size:1.7vh;">Cijena: najviša - najniža</a>
+            <div class="dropdownboja">
+                <a style="color: black; text-decoration:none; font-size:1.7vh; position: relative;">Boja</a>
+                <div class="dropdownboja-content">
+                    <a asp-controller="Artikal" asp-action="Filtriranje" asp-route-query="0"> <img src="~/images/red.png" style="height:2vh; width:auto;" /> Crvena</a>
+                    <a asp-controller="Artikal" asp-action="Filtriranje" asp-route-query="1">  <img src="~/images/orange.png" style="height:2vh; width:auto;" /> Narandžasta</a>
+                    <a asp-controller="Artikal" asp-action="Filtriranje" asp-route-query="2"><img src="~/images/yellow.png" style="height:2vh; width:auto;" /> Žuta</a>
+                    <a asp-controller="Artikal" asp-action="Filtriranje" asp-route-query="3"><img src="~/images/green.png" style="height:2vh; width:auto;" /> Zelena</a>
+                    <a asp-controller="Artikal" asp-action="Filtriranje" asp-route-query="4"><img src="~/images/blue.png" style="height:2vh; width:auto;" /> Plava</a>
+                    <a asp-controller="Artikal" asp-action="Filtriranje" asp-route-query="5"><img src="~/images/purple.png" style="height:2vh; width:auto;" /> Ljubičasta</a>
+                    <a asp-controller="Artikal" asp-action="Filtriranje" asp-route-query="5"><img src="~/images/pink.png" style="height:2vh; width:auto;" /> Roza</a>
+                    <a asp-controller="Artikal" asp-action="Filtriranje" asp-route-query="7"><img src="~/images/white.png" style="height:2vh; width:auto;" /> Bijela</a>
+                    <a asp-controller="Artikal" asp-action="Filtriranje" asp-route-query="8"><img src="~/images/gray.png" style="height:2vh; width:auto;" /> Siva</a>
+                    <a asp-controller="Artikal" asp-action="Filtriranje" asp-route-query="9"><img src="~/images/black.png" style="height:2vh; width:auto;" /> Crna</a>
+                    <a asp-controller="Artikal" asp-action="Filtriranje" asp-route-query="10"><img src="~/images/brown.png" style="height:2vh; width:auto;" /> Smeđa</a>
+                    <a asp-controller="Artikal" asp-action="Filtriranje" asp-route-query="11"><img src="~/images/beige.png" style="height:2vh; width:auto;" /> Bež</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        @if (User.IsInRole("Administrator"))
+        {
+            <a asp-action="Create" style=" text-decoration: none;">
+                <button style="float:right; margin-bottom: 2vh; background-color:#C6324C; border-radius:5px; margin-right: 1vw; border: none; color:#ffffff; font-weight: bold; font-size: 2.5vh;">
+                    Kreiraj novi proizvod
+                </button>
+            </a>
+        }
+    </div>
+    <div class="articles-container" style="background-color:#e8e8e8; border-radius: 10px; width:85vw;">
+        @if (Model.Any())
+        {
+            @foreach (var item in Model)
+            {
+                <a class="article-link" asp-action="Details" asp-route-id="@item.Id" style="text-decoration:none;">
+                    <div class="article" style="display: inline-block;">
+                        <div>
+
+                            <img src="@Url.Content(item.slika)" alt="cover" width="220" height="170" />
+                        </div>
+                        <div style="font-weight:bold; font-size: 3vh; color: #4B4B4B;">
+                            @Html.DisplayFor(modelItem => item.naziv)
+                        </div>
+                        @if (User.IsInRole("Administrator") || User.IsInRole("Uposlenik"))
+                        {
+                            <div style="text-decoration:none; color:#4B4B4B ">
+                                Količina na stanju:
+                                @Html.DisplayFor(modelItem => item.kolicina)
+                            </div>
+                        }
+                        <div style="text-align:right; color:#8C6E43; font-weight: bold; font-size: 3vh;">
+                            @Html.DisplayFor(modelItem => item.cijena) KM
+                        </div>
+                        <div style="align-items:center;">
+                            @if (User.IsInRole("Administrator") || User.IsInRole("Uposlenik"))
+                            {
+                                <a asp-action="Edit" asp-route-id="@item.Id"> <button type="submit" style="background-color:#8C6E43; color: #ffffff; border:none; border-radius:4px; ">Uredi</button></a>
+                            }
+                            @if (User.IsInRole("Administrator"))
+                            {
+                                <a asp-action="Delete" asp-route-id="@item.Id"> <button type="submit" style="background-color:#C6324C; color: #ffffff; border:none; border-radius:4px;">Izbriši</button></a>
+                            }
+                        </div>
+                    </div>
+                </a>
+            }
+        }
+        else if (!string.IsNullOrEmpty(ViewBag.Query))
+        {
+            <p style="font-size:5vh; font-weight: bold;">No results found for "@ViewBag.Query".</p>
+        }
+        else
+        {
+            <p style="font-size:5vh; font-weight: bold;">No items found.</p>
+        }
+    </div>
+</body>
+
+<style>
+
+    .article {
+        background-color: #ffffff;
+        border-radius: 5px;
+        padding: 10px;
     }
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.naziv)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.tip)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.boja)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.kolicina)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.cijena)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Iddimenzije)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.slika)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.naziv)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.tip)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.boja)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.kolicina)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.cijena)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Iddimenzije)
-            </td>
-            <td>
-                    <img src="@Url.Content(item.slika)" alt="cover" width="200" height="150" />
-            </td>
-            <td>
-                    @if (User.IsInRole("Administrator") || User.IsInRole("Zaposlenik"))
-                    {
-                        <a asp-action="Edit" asp-route-id="@item.Id"> <button type="submit">Uredi</button></a>
-                    }
-                    <a asp-action="Details" asp-route-id="@item.Id"> <button type="submit">Detalji</button></a> 
-                    @if (User.IsInRole("Administrator"))
-                    {
-                    <a asp-action="Delete" asp-route-id="@item.Id"> <button type="submit">Izbriši</button></a>
-                    }
-                   
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
-}
-else if (!string.IsNullOrEmpty(ViewBag.Query))
-{
-    <p>No results found for "@ViewBag.Query".</p>
-}
-else
-{
-    <p>No items found.</p>
-}
+
+    .article-link:hover {
+        transform: scale(1.05);
+    }
+
+    .article img {
+        border-radius: 5px;
+    }
+
+    .articles-container {
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: center;
+    }
+
+
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 9999;
+    }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            font-size: 2vh;
+            display: block;
+            text-align: left;
+            z-index: 9999;
+            height: 5vh;
+        }
+
+            .dropdown-content a:hover {
+                background-color: #f1f1f1;
+            }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdownboja-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 9999;
+    }
+
+        .dropdownboja-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            font-size: 2vh;
+            display: block;
+            text-align: left;
+            z-index: 9999;
+        }
+
+            .dropdownboja-content a:hover {
+                background-color: #f1f1f1;
+            }
+
+    .dropdownboja:hover .dropdownboja-content {
+        display: block;
+    }
+
+</style>

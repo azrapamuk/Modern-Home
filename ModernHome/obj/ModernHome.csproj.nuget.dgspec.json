@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\ModernHome.csproj": {}
+    "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\ModernHome.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\ModernHome.csproj": {
+    "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\ModernHome.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\ModernHome.csproj",
+        "projectUniqueName": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\ModernHome.csproj",
         "projectName": "ModernHome",
-        "projectPath": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\ModernHome.csproj",
-        "packagesPath": "C:\\Users\\alilj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alilj\\Desktop\\OOAD_App\\ModernHome\\obj\\",
+        "projectPath": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\ModernHome.csproj",
+        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alilj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -101,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

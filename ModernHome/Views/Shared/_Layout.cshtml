@@ -26,7 +26,7 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        @if (!User.Identity.IsAuthenticated || (!User.IsInRole("Administrator") && !User.IsInRole("Zaposlenik")))
+                        @if (!User.Identity.IsAuthenticated || (!User.IsInRole("Administrator") && !User.IsInRole("Uposlenik")))
                         {
                             <li class="nav-item">
                                 <a class="nav-link text-dark" href="/#aboutus">O nama</a>
@@ -39,34 +39,38 @@
                             <a class="nav-link text-dark" style="color: black; text-decoration:none;  position: relative; display: inline-block;">Kategorije</a>
                             <div class="dropdown-content">
                                 <a asp-area="" asp-controller="Artikal" asp-action="Index">Svi proizvodi</a>
-                                <a href="#service2">Dnevna soba</a>
-                                <a href="#service3">Kuhinja</a>
-                                <a href="#service1">Spavaća soba</a>
-                                <a href="#service1">Ured</a>
-                                <a href="#service1">Dekoracije</a>
-                                <a href="#service1">Razno</a>
+                                <a asp-controller="Artikal" asp-action="SobeFiltriranje" asp-route-query="0">Dnevna soba</a>
+                                <a asp-controller="Artikal" asp-action="SobeFiltriranje" asp-route-query="1">Kuhinja</a>
+                                <a asp-controller="Artikal" asp-action="SobeFiltriranje" asp-route-query="2">Spavaća soba</a>
+                                <a asp-controller="Artikal" asp-action="SobeFiltriranje" asp-route-query="3">Ured</a>
+                                <a asp-controller="Artikal" asp-action="SobeFiltriranje" asp-route-query="4">Dekoracije</a>
+                                <a asp-controller="Artikal" asp-action="SobeFiltriranje" asp-route-query="5">Razno</a>
                             </div>
                         </li>
                         <form class="form-inline my-2 my-lg-0" method="get" action="/Artikal">
                             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="query" style="width: 20vw;">
                         </form>
-                        @if (User.Identity.IsAuthenticated && (!User.IsInRole("Administrator") && !User.IsInRole("Zaposlenik")))
+                        @if (User.Identity.IsAuthenticated && (!User.IsInRole("Administrator") && !User.IsInRole("Uposlenik")))
                         {
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="StavkaNarudzbe" asp-action="Index">Korpa</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="StavkaNarudzbe" asp-action="Index">
+                                <img src="~/images/cart.jpg" style="height:3vh; width: auto;" />
+                            </a>
                         </li>
                         }
                         @if (User.Identity.IsAuthenticated)
                          {
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Narudzba" asp-action="Index">Narudžbe</a>
-                        </li>
-                         }
-                        @if (User.IsInRole("Administrator"))
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="SviKorisnici">Korisnici</a>
-                            </li>
+                            @if (User.IsInRole("Administrator"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Narudzba" asp-action="Index">Narudžbe</a>
+                                </li>
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="SviKorisnici">Korisnici</a>
+                                </li>
+                            }
                         }
                     </ul>
                     <partial name="_LoginPartial" />
