@@ -170,7 +170,17 @@ namespace ModernHome.Controllers
         [Authorize(Roles = "Administrator")]
         public IActionResult Create()
         {
+            var dimenzije = _context.Dimenzije.ToList();
+
+            var dimenzijeSelectList = dimenzije.Select(d => new SelectListItem
+            {
+                Value = d.Id.ToString(),
+                Text = $"{d.visina} x {d.sirina} x {d.duzina}"
+            });
+
+            ViewBag.Dimenzije = new SelectList(dimenzijeSelectList, "Value", "Text");
             return View();
+
         }
 
         // POST: Artikal/Create
@@ -186,6 +196,15 @@ namespace ModernHome.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            var dimenzije = _context.Dimenzije.ToList();
+
+            var dimenzijeSelectList = dimenzije.Select(d => new SelectListItem
+            {
+                Value = d.Id.ToString(),
+                Text = $"{d.duzina} x {d.sirina} x {d.visina}"
+            });
+
+            ViewBag.Dimenzije = new SelectList(dimenzijeSelectList, "Value", "Text");
             return View(artikal);
         }
 

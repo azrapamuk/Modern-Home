@@ -62,12 +62,12 @@
                         var username = item.UserName;
                         var id = item.Id;
                     }
-                    <form asp-action="Delete" method="post">
+                        <form asp-action="Delete" method="post" background-color:#222; color: #fff; border:none; font-size:2vh; padding:3px; border-radius: 5px; text-decoration:none;">
                         <input type="hidden" name="username" value="@username" />
                         <input type="submit" value="Delete" class="btn btn-danger" />
                     </form>
                     <p></p>
-                    <a asp-action="SviKorisniciEdit" class="btn btn-primary" asp-route-username="@username">Edit</a>
+                        <a asp-action="SviKorisniciEdit" class="btn btn-primary" asp-route-username="@username" background-color:#222; color: #fff; border:none; font-size:2vh; padding:3px; border-radius: 5px; text-decoration:none;">Edit</a>
                 </td>
             </tr>
         }
