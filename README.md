@@ -33,6 +33,26 @@ Modern Home je sveobuhvatna aplikacija za prodaju namještaja koja omogućava ko
 - Upravljanje narudžbama - upravljanje narudžbama, pregled ili brisanje narudžbi.
 - Upravljanje sadržajem - upravljanje sadržajem na aplikaciji, uključujući dodavanje novih proizvoda, brisanje već postojećih, te ažuriranje cijena.
 
+## Pristupni podaci:
+
+#### Stranica:
+- URL: http://aljuka09-001-site1.ktempurl.com/
+- username: 11173779
+- password: 60-dayfreetrial
+
+#### Korisnik:
+- username: test@gmail.com
+- password: proba
+
+#### Zaposlenik:
+- username: pelto@yahoo.com
+- password: 12345
+
+#### Administrator:
+- username: admin@etf.unsa.ba
+- password: n-JPnvxYk.yef5G
+
+
 ## Članovi tima
 - Ljaljak Ali
 - Ljaljak Amil
