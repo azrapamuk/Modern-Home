@@ -1,12 +1,156 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\projekatapp-ooad\\modernhome\\controllers\\narudzbacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:controllers\\narudzbacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\projekatapp-ooad\\modernhome\\views\\narudzba\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:views\\narudzba\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\projekatapp-ooad\\modernhome\\views\\stavkanarudzbe\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:views\\stavkanarudzbe\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\projekatapp-ooad\\modernhome\\views\\stavkanarudzbe\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:views\\stavkanarudzbe\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\projekatapp-ooad\\modernhome\\views\\artikal\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:views\\artikal\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\projekatapp-ooad\\modernhome\\views\\stavkanarudzbe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:views\\stavkanarudzbe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\projekatapp-ooad\\modernhome\\controllers\\stavkanarudzbecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:controllers\\stavkanarudzbecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|c:\\users\\alilj\\desktop\\projekatapp-ooad\\modernhome\\views\\artikal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B668C5B-B5B3-4505-8B9E-6961CF970C6C}|ModernHome.csproj|solutionrelative:views\\artikal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NarudzbaController.cs",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\Controllers\\NarudzbaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NarudzbaController.cs",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\Controllers\\NarudzbaController.cs",
+              "RelativeToolTip": "Controllers\\NarudzbaController.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T04:56:40.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\Views\\Narudzba\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Narudzba\\Create.cshtml",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\Views\\Narudzba\\Create.cshtml",
+              "RelativeToolTip": "Views\\Narudzba\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T04:56:28.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\Views\\Artikal\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Artikal\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\Views\\Artikal\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Artikal\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T04:55:18.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StavkaNarudzbeController.cs",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\Controllers\\StavkaNarudzbeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StavkaNarudzbeController.cs",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\Controllers\\StavkaNarudzbeController.cs",
+              "RelativeToolTip": "Controllers\\StavkaNarudzbeController.cs",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAowIAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T04:51:33.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\Views\\StavkaNarudzbe\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\StavkaNarudzbe\\Create.cshtml",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\Views\\StavkaNarudzbe\\Create.cshtml",
+              "RelativeToolTip": "Views\\StavkaNarudzbe\\Create.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAF0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T04:49:54.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\Views\\StavkaNarudzbe\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\StavkaNarudzbe\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\Views\\StavkaNarudzbe\\Edit.cshtml",
+              "RelativeToolTip": "Views\\StavkaNarudzbe\\Edit.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAEYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T04:49:32.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\Views\\StavkaNarudzbe\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\StavkaNarudzbe\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\Views\\StavkaNarudzbe\\Index.cshtml",
+              "RelativeToolTip": "Views\\StavkaNarudzbe\\Index.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEcAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T04:47:49.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\Views\\Artikal\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Artikal\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\Views\\Artikal\\Index.cshtml",
+              "RelativeToolTip": "Views\\Artikal\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T04:47:35.716Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

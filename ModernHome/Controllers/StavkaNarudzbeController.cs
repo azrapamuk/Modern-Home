@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
@@ -123,8 +124,9 @@ namespace ModernHome.Controllers
         }
 
         // GET: StavkaNarudzbe/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(int? id, double cijena)
         {
+            ViewData["cijena"]=cijena;
             if (id == null)
             {
                 return NotFound();

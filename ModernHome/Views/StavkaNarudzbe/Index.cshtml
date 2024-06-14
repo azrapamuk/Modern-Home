@@ -71,7 +71,8 @@
             <td>
                     @if (User.IsInRole("Administrator") || User.IsInRole("Korisnik"))
                     {
-                        <a asp-action="Edit" asp-route-id="@item.Id" style="color:black;">Pregled</a> <nobr>|</nobr>
+                                var cijenaPoKomadu = (item.cijena / item.kolicina).ToString("F0"); 
+                                <a asp-action="Edit" asp-route-id="@item.Id" asp-route-cijena= "@cijenaPoKomadu" style="color:black;">Pregled</a> <nobr>|</nobr>
                         <a asp-action="Delete" asp-route-id="@item.Id" style="color:black;">Obriši</a>
                 }
             </td>
