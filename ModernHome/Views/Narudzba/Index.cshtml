@@ -4,35 +4,39 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Narudžbe</h1>
 
 @if (User.IsInRole("Korisnik"))
 {
-    <div>
-        <h4>Vaša narudžba je uspješno kreirana. </h4>
-    </div>
+    <body class="hide-footer">
+        <section>
+            <div style="width: 100%; text-align: center;">
+                <img src="~/images/check.png" style="height: 20vh; width: auto;" alt="Check Icon" />
+            </div>
+            <h1 style="font-weight:bold; font-size: 7vh;">Narudžba kreirana</h1>
+            <p>Vaša narudžba je uspješno kreirana.</p>
+            <a asp-controller="Kartica" asp-action="Create"><button type="submit" style="background-color:#222222; color: #fff; border:none; font-size:3vh; margin-top:2vh; border-radius: 3px;">Pređite na plaćanje</button></a>
+        </section>
+    </body>
 }
 @if (User.IsInRole("Administrator") || User.IsInRole("Uposlenik")){
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Idkorisnik)
+                ID korisnika
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.vrijemeNarudzbe)
+                Vrijeme narudžbe
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.stanjeIsporuke)
+                Stanje isporuke
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Idkorpa)
+               ID korpe
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.cijena)
+                Cijena
             </th>
             <th></th>
         </tr>
@@ -56,11 +60,11 @@
                     @Html.DisplayFor(modelItem => item.cijena)
                 </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Edit" asp-route-id="@item.Id" style=" background-color:#222; color: #fff; border:none; font-size:2vh; padding:3px; border-radius: 5px; text-decoration:none;">Izmijeni</a> 
+                        <a asp-action="Details" asp-route-id="@item.Id" style=" background-color:#222; color: #fff; border:none; font-size:2vh; padding:3px; border-radius: 5px;text-decoration:none;">Detalji</a> |
                     @if (User.IsInRole("Administrator"))
                     {
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" style=" background-color:#C6324C; color: #fff; border:none; font-size:2vh; padding:3px; border-radius: 5px;text-decoration:none;">Obriši</a>
                     }
             </td>
         </tr>
@@ -68,6 +72,47 @@
     </tbody>
 </table>
 }
-@if (User.IsInRole("Korisnik")){
-    <a asp-controller="Kartica" asp-action="Create"><button type="submit" style="background-color:#222222; color: #fff; border:none; font-size:3vh; margin-top:2vh; border-radius: 3px;">Pređite na plaćanje</button></a>
-}
+
+<style>
+    .hide-footer {
+        background-color: #C4A693;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+        .hide-footer footer {
+            display: none;
+        }
+
+        .hide-footer nav {
+            display: none;
+        }
+           
+
+    section {
+        background-color: #ffffff;
+        border-radius: 12px;
+        height: 50vh;
+        width: 84vw;
+        box-shadow: 0px 8px 8px 0px rgba(0.2, 0.2, 0.2, 0.2);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    img {
+        height: 30vh;
+        width: auto;
+    }
+
+    p {
+        font-size: 3vh;
+    }
+
+
+</style>

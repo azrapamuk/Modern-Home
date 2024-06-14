@@ -4,9 +4,14 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
 
-<h4>Narudzba</h4>
+<div>
+    <a asp-action="Index"><button style="margin-bottom:2vh; border:none;">← Nazad</button></a>
+
+</div>
+
+
+<h1>Izmijeni narudžbu</h1>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -14,39 +19,35 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
             <div class="form-group">
-                <label asp-for="Idkorisnik" class="control-label"></label>
-                <input asp-for="Idkorisnik" class="form-control" />
+                <label asp-for="Idkorisnik" class="control-label">ID korisnika</label>
+                <input asp-for="Idkorisnik" class="form-control" readonly />
                 <span asp-validation-for="Idkorisnik" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="vrijemeNarudzbe" class="control-label"></label>
-                <input asp-for="vrijemeNarudzbe" class="form-control" />
+                <label asp-for="vrijemeNarudzbe" class="control-label">Vrijeme narudžbe</label>
+                <input asp-for="vrijemeNarudzbe" class="form-control" readonly/>
                 <span asp-validation-for="vrijemeNarudzbe" class="text-danger"></span>
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="stanjeIsporuke" /> @Html.DisplayNameFor(model => model.stanjeIsporuke)
+                    <input class="form-check-input" asp-for="stanjeIsporuke" /> Stanje isporuke
                 </label>
             </div>
             <div class="form-group">
-                <label asp-for="Idkorpa" class="control-label"></label>
-                <input asp-for="Idkorpa" class="form-control" />
+                <label asp-for="Idkorpa" class="control-label">ID korpe</label>
+                <input asp-for="Idkorpa" class="form-control" readonly/>
                 <span asp-validation-for="Idkorpa" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="cijena" class="control-label"></label>
+                <label asp-for="cijena" class="control-label">Cijena</label>
                 <input asp-for="cijena" class="form-control" />
                 <span asp-validation-for="cijena" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Sačuvaj" class="btn btn-primary" style="background-color:#222222; color: #fff; border:none; font-size:3vh; margin-top:2vh; border-radius: 3px;" />
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {

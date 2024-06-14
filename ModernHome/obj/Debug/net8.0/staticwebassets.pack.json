@@ -1,507 +1,519 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ModernHome.bundle.scp.css",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ModernHome.bundle.scp.css",
       "PackagePath": "staticwebassets\\ModernHome.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\aboutus.jpeg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\aboutus.jpeg",
       "PackagePath": "staticwebassets\\images\\aboutus.jpeg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\aboutus.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\aboutus.jpg",
       "PackagePath": "staticwebassets\\images\\aboutus.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\background.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\background.jpg",
       "PackagePath": "staticwebassets\\images\\background.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\beige.png",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\beige.png",
       "PackagePath": "staticwebassets\\images\\beige.png"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\black.png",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\black.png",
       "PackagePath": "staticwebassets\\images\\black.png"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\blue.png",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\blue.png",
       "PackagePath": "staticwebassets\\images\\blue.png"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\brown.png",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\brown.png",
       "PackagePath": "staticwebassets\\images\\brown.png"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\cart.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\cart.jpg",
       "PackagePath": "staticwebassets\\images\\cart.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\cart.webp",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\cart.webp",
       "PackagePath": "staticwebassets\\images\\cart.webp"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\check.png",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\check.png",
       "PackagePath": "staticwebassets\\images\\check.png"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\contact.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\contact.jpg",
       "PackagePath": "staticwebassets\\images\\contact.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\email.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\email.jpg",
       "PackagePath": "staticwebassets\\images\\email.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\facebook.png",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\facebook.png",
       "PackagePath": "staticwebassets\\images\\facebook.png"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\foteljajasper.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\foteljajasper.jpg",
       "PackagePath": "staticwebassets\\images\\foteljajasper.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\foteljajull.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\foteljajull.jpg",
       "PackagePath": "staticwebassets\\images\\foteljajull.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\foteljamadura.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\foteljamadura.jpg",
       "PackagePath": "staticwebassets\\images\\foteljamadura.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\gray.png",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\gray.png",
       "PackagePath": "staticwebassets\\images\\gray.png"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\green.png",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\green.png",
       "PackagePath": "staticwebassets\\images\\green.png"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\instagram.png",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\instagram.png",
       "PackagePath": "staticwebassets\\images\\instagram.png"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\kaucbelvedere.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\kaucbelvedere.jpg",
       "PackagePath": "staticwebassets\\images\\kaucbelvedere.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\kauchoffman.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\kauchoffman.jpg",
       "PackagePath": "staticwebassets\\images\\kauchoffman.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\kaucmirta.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\kaucmirta.jpg",
       "PackagePath": "staticwebassets\\images\\kaucmirta.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\kauctirana.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\kauctirana.jpg",
       "PackagePath": "staticwebassets\\images\\kauctirana.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\krevetamsterdam.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\krevetamsterdam.jpg",
       "PackagePath": "staticwebassets\\images\\krevetamsterdam.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\krevetdaphne.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\krevetdaphne.jpg",
       "PackagePath": "staticwebassets\\images\\krevetdaphne.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\krevetenzo.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\krevetenzo.jpg",
       "PackagePath": "staticwebassets\\images\\krevetenzo.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\krevetmarabella.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\krevetmarabella.jpg",
       "PackagePath": "staticwebassets\\images\\krevetmarabella.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\krevetnicky.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\krevetnicky.jpg",
       "PackagePath": "staticwebassets\\images\\krevetnicky.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\krevetrio.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\krevetpettine.jpg",
+      "PackagePath": "staticwebassets\\images\\krevetpettine.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\krevetrio.jpg",
       "PackagePath": "staticwebassets\\images\\krevetrio.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\krevetwien.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\krevetwien.jpg",
       "PackagePath": "staticwebassets\\images\\krevetwien.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\logo.png",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\orange.png",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\ogledalocapsule.jpg",
+      "PackagePath": "staticwebassets\\images\\ogledalocapsule.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\orange.png",
       "PackagePath": "staticwebassets\\images\\orange.png"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\ormarbali.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\ormarbali.jpg",
       "PackagePath": "staticwebassets\\images\\ormarbali.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\ormardome.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\ormardome.jpg",
       "PackagePath": "staticwebassets\\images\\ormardome.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\ormarforest.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\ormarforest.jpg",
       "PackagePath": "staticwebassets\\images\\ormarforest.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\ormarroma.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\ormarroma.jpg",
       "PackagePath": "staticwebassets\\images\\ormarroma.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\piclogin.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\piclogin.jpg",
       "PackagePath": "staticwebassets\\images\\piclogin.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\picregister.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\picregister.jpg",
       "PackagePath": "staticwebassets\\images\\picregister.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\pink.png",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\pink.png",
       "PackagePath": "staticwebassets\\images\\pink.png"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\product.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\product.jpg",
       "PackagePath": "staticwebassets\\images\\product.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\purple.png",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\purple.png",
       "PackagePath": "staticwebassets\\images\\purple.png"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\red.png",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\red.png",
       "PackagePath": "staticwebassets\\images\\red.png"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\slikabridge.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\shipping.png",
+      "PackagePath": "staticwebassets\\images\\shipping.png"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\slikabridge.jpg",
       "PackagePath": "staticwebassets\\images\\slikabridge.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\slikacity.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\slikacity.jpg",
       "PackagePath": "staticwebassets\\images\\slikacity.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\slikaduo.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\slikaduo.jpg",
       "PackagePath": "staticwebassets\\images\\slikaduo.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\sto.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\sto.jpg",
       "PackagePath": "staticwebassets\\images\\sto.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\stoanna.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\stoanna.jpg",
       "PackagePath": "staticwebassets\\images\\stoanna.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\stobok.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\stobok.jpg",
       "PackagePath": "staticwebassets\\images\\stobok.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\stobronx.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\stobronx.jpg",
       "PackagePath": "staticwebassets\\images\\stobronx.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\stocage.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\stocage.jpg",
       "PackagePath": "staticwebassets\\images\\stocage.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\stoevergreen.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\stoevergreen.jpg",
       "PackagePath": "staticwebassets\\images\\stoevergreen.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\stolicabos.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\stolicabos.jpg",
       "PackagePath": "staticwebassets\\images\\stolicabos.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\stolicaditre.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\stolicaditre.jpg",
       "PackagePath": "staticwebassets\\images\\stolicaditre.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\stolicaeverly.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\stolicaeverly.jpg",
       "PackagePath": "staticwebassets\\images\\stolicaeverly.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\stolicamartha.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\stolicamartha.jpg",
       "PackagePath": "staticwebassets\\images\\stolicamartha.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\stolicamorena.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\stolicamorena.jpg",
       "PackagePath": "staticwebassets\\images\\stolicamorena.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\stolicanature.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\stolicanature.jpg",
       "PackagePath": "staticwebassets\\images\\stolicanature.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\stolicanilo.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\stolicanilo.jpg",
       "PackagePath": "staticwebassets\\images\\stolicanilo.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\stolicapolo.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\stolicapolo.jpg",
       "PackagePath": "staticwebassets\\images\\stolicapolo.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\stolicaregon.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\stolicaregon.jpg",
       "PackagePath": "staticwebassets\\images\\stolicaregon.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\stominsk.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\stominsk.jpg",
       "PackagePath": "staticwebassets\\images\\stominsk.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\stooulton.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\stooulton.jpg",
       "PackagePath": "staticwebassets\\images\\stooulton.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\stosoho.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\stosoho.jpg",
       "PackagePath": "staticwebassets\\images\\stosoho.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\stotara.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\stotara.jpg",
       "PackagePath": "staticwebassets\\images\\stotara.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\vazacosmic.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\vazacosmic.jpg",
       "PackagePath": "staticwebassets\\images\\vazacosmic.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\vazacrystal.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\vazacrystal.jpg",
       "PackagePath": "staticwebassets\\images\\vazacrystal.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\vazaeglo.jpg",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\vazaeglo.jpg",
       "PackagePath": "staticwebassets\\images\\vazaeglo.jpg"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\white.png",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\white.png",
       "PackagePath": "staticwebassets\\images\\white.png"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\yellow.png",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\images\\yellow.png",
       "PackagePath": "staticwebassets\\images\\yellow.png"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\Tim32_Modern_home\\ModernHome\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

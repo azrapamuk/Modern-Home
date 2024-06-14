@@ -29,6 +29,6 @@ namespace ModernHome.Models
         [Display(Name = "Smeđa boja")]  //10
         smedja,
         [Display(Name = "Bež boja")]  //11
-        bez,
+        beige,
     }
 }

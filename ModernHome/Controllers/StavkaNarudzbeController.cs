@@ -110,7 +110,10 @@ namespace ModernHome.Controllers
                 KorpaID = "";
             }
             ViewData["KorpaID"] = KorpaID;
-            
+
+            var artikal = _context.Artikal.Find(Idartikal);
+            ViewBag.Artikal = artikal; // You can use ViewBag or a ViewModel pattern here
+
             return View();
 
         }

@@ -78,11 +78,11 @@ namespace ModernHome.Controllers
         {
             IQueryable<Artikal> artikliQuery = _context.Artikal;
 
-            if (query == "00")
+            if (query == "000")
             {
                 artikliQuery = artikliQuery.OrderBy(a => a.cijena);
             }
-            else if (query == "11")
+            else if (query == "111")
             {
                 artikliQuery = artikliQuery.OrderByDescending(a => a.cijena);
             }
@@ -124,7 +124,7 @@ namespace ModernHome.Controllers
                         artikliQuery = artikliQuery.Where(a => a.boja == Boje.smedja);
                         break;
                     case "11":
-                        artikliQuery = artikliQuery.Where(a => a.boja == Boje.bez);
+                        artikliQuery = artikliQuery.Where(a => a.boja == Boje.beige);
                         break;
                 }
             }

@@ -3,5 +3,56 @@
     ViewData["Title"] = "UspjesnoPlacanje";
 }
 
-<h1>UspjesnoPlacanje</h1>
+<body class="hide-footer">
+   
+        <section>
+            <div style="width: 100%; text-align: center;">
+                <img src="~/images/shipping.png" style="height: 20vh; width: auto;" alt="Check Icon" />
+            </div>
+            <h1 style="font-weight:bold; font-size: 7vh;">Narudžba kreirana</h1>
+            <p>Vaša narudžba je obrađena i biti će isporučena u roku od 48h.</p>
+        <a asp-controller="Artikal" asp-action="Index"><button type="submit" style="background-color:#222222; color: #fff; border:none; font-size:3vh; margin-top:2vh; border-radius: 3px;">Nazad na artikle</button></a>
+        </section>
+    </body>
 
+<style>
+    .hide-footer {
+        background-color: #C4A693;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+        .hide-footer footer {
+            display: none;
+        }
+
+        .hide-footer nav {
+            display: none;
+        }
+
+    section {
+        background-color: #ffffff;
+        border-radius: 12px;
+        height: 50vh;
+        width: 84vw;
+        box-shadow: 0px 8px 8px 0px rgba(0.2, 0.2, 0.2, 0.2);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    img {
+        height: 30vh;
+        width: auto;
+    }
+
+    p {
+        font-size: 3vh;
+    }
+
+</style>
