@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eO5LQ8DiB4kmMvU2UWWREhrNEoNoQUXTH0O/8S6bqFk=",
+  "Hash": "q8tlY7pgnvt19rYCiFazFs6gIum7gcsO8TPwbSjay1E=",
   "Source": "ModernHome",
   "BasePath": "_content/ModernHome",
   "Mode": "Default",
@@ -1269,6 +1269,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\aboutus.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\background.jpg",
+      "SourceId": "ModernHome",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\",
+      "BasePath": "_content/ModernHome",
+      "RelativePath": "images/background.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\background.jpg"
     },
     {
       "Identity": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\beige.png",

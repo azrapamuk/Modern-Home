@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\images\\aboutus.jpg"
     },
     {
+      "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\background.jpg",
+      "PackagePath": "staticwebassets\\images\\background.jpg"
+    },
+    {
       "Id": "C:\\Users\\alilj\\Desktop\\ProjekatApp-OOAD\\ModernHome\\wwwroot\\images\\beige.png",
       "PackagePath": "staticwebassets\\images\\beige.png"
     },

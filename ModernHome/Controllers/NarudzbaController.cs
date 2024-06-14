@@ -91,7 +91,7 @@ namespace ModernHome.Controllers
                     if (artikal.kolicina < stavka.kolicina)
                     {
                         nemaNaStanju = true;
-                        ViewData["Poruka"] = "Nema dovoljno zaliha za artikal: " + artikal.naziv;
+                        TempData["Poruka"] = "Nema dovoljno zaliha za artikal: " + artikal.naziv;
                         break;
                     }
                     else
@@ -107,7 +107,7 @@ namespace ModernHome.Controllers
             if (nemaNaStanju)
             {
                 //ModelState.AddModelError(nameof(Artikal.kolicina), "Nedovoljno artikala na stanju za ovu narudzbu");
-                return RedirectToAction("Index", "StavkaNarudzbe");
+                return RedirectToAction("NemaNaStanju", "Narudzba");
             }
 
 
@@ -245,6 +245,11 @@ namespace ModernHome.Controllers
         private bool NarudzbaExists(int id)
         {
             return _context.Narudzba.Any(e => e.Id == id);
+        }
+        public IActionResult NemaNaStanju()
+        {
+            ViewData["Poruka"] = TempData["Poruka"];
+            return View();
         }
 
     }
