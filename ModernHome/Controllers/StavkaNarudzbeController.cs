@@ -34,10 +34,19 @@ namespace ModernHome.Controllers
                                .Where(k => k.Idkorisnik == userid)
                                .Select(k => k.Id)
                                .ToList();
+
+            
+
             var KorpaID = korpaIds.First().ToString();
             var filteredData = await _context.StavkaNarudzbe
                                              .Where(s => s.Idkorpa == Convert.ToInt32(KorpaID))
                                              .ToListAsync();
+
+            var artikli = _context.Artikal
+        .Where(a => filteredData.Select(s => s.Idartikal).Contains(a.Id))
+        .ToDictionary(a => a.Id, a => a.naziv);
+
+            ViewBag.Artikli = artikli;
 
             ViewBag.KorpaID = filteredData;
             if (TempData["Poruka"] != null)

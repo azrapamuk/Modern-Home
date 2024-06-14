@@ -2,7 +2,8 @@
 
 @{
     ViewData["Title"] = "Index";
-
+    var artikli = ViewBag.Artikli as Dictionary<int, string>;
+}
 
 }
 <style>
@@ -46,7 +47,7 @@
     <thead>
         <tr>
             <th>
-                ID artikla
+                Artikal
             </th>
             <th>
                 Količina
@@ -59,15 +60,16 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Idartikal)
-            </td>
-            <td>
+                        <td>@artikli[item.Idartikal]</td>
+                        <td>
                 @Html.DisplayFor(modelItem => item.kolicina)
             </td>
                 <td class="price">
                 @Html.DisplayFor(modelItem => item.cijena) KM
             </td>
+                        <td class="">
+                            
+                        </td>
             <td>
                     @if (User.IsInRole("Administrator") || User.IsInRole("Korisnik"))
                     {

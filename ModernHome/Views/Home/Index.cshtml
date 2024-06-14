@@ -40,7 +40,7 @@
         <div style="width: 70vw; margin-right: 1.5vw">
             <img src="~/images/aboutus.jpeg" alt="About Us" class="img-fluid rounded" style="width:auto; height: auto;">
         </div>
-    </section>
+   </section>
 
     <section id="contact" class="contact-section text-left" style="background-color: #ffffff; border-radius: 15px; padding: 5vw; flex; align-items: flex-start;">
         <div class="content" style="width:30vw">
@@ -50,7 +50,13 @@
             <p style="font-family: 'Inter';font-size:1.5vw;">Adresa: Aleja poštenih 32, Sarajevo</p>
         </div>
         <img src="~/images/contact.jpg" alt="Contact" class="img-fluid rounded" style="width:45 vw; height:auto">
+
     </section>
+
+    <div style="margin-top: 2%; margin-bottom: 2% ">
+<div id="myMap"
+style="position:relative;width:1280px;height:400px;"></div>
+</div>
 
 
 </div>
@@ -112,3 +118,48 @@
         margin-right: 45%;
     }
 </style>
+
+               <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
+    <script type='text/javascript'>
+        function GetMap() {
+            var map = new Microsoft.Maps.Map('#myMap', {
+                credentials: 'AhlvLdNA8tcTDE4Hy3HBSNm6NKDvf-RFJVywZ_IZtyn0FuzrcLEHQvHokGW8W-wD', // Vaš Bing Maps ključ
+                center: new Microsoft.Maps.Location(43.85047300398563, 18.359026462157104), // Koordinate Sarajeva
+                mapTypeId: Microsoft.Maps.MapTypeId.road, // Tip mape
+                zoom: 15 // Nivo zumiranja
+            });
+
+            // Kreiranje infobox-a
+            var infobox = new Microsoft.Maps.Infobox(map.getCenter(), {
+                visible: false
+            });
+            infobox.setMap(map);
+
+            // Kreiranje pina za lokaciju
+            var etfLocation = new Microsoft.Maps.Location(43.85047300398563, 18.359026462157104);
+            var pin = new Microsoft.Maps.Pushpin(etfLocation);
+
+            // Metadata za pin
+            pin.metadata = {
+                title: 'ModernHome',
+                description: 'Salon namještaja ModernHome'
+            };
+
+            // Dodavanje event handlera za klik na pin
+            Microsoft.Maps.Events.addHandler(pin, 'click', pushpinClicked);
+
+            // Dodavanje pina na mapu
+            map.entities.push(pin);
+
+            function pushpinClicked(e) {
+                if (e.target.metadata) {
+                    infobox.setOptions({
+                        location: e.target.getLocation(),
+                        title: e.target.metadata.title,
+                        description: e.target.metadata.description,
+                        visible: true
+                    });
+                }
+            }
+        }
+    </script>
