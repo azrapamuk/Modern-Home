@@ -17,351 +17,335 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ModernHome
 build_property.RootNamespace = ModernHome
-build_property.ProjectDir = C:\Users\alilj\Desktop\ProjekatApp-OOAD\ModernHome\
+build_property.ProjectDir = C:\Users\Korisnik\Documents\GitHub\Tim32_Modern_home\ModernHome\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\alilj\Desktop\ProjekatApp-OOAD\ModernHome
+build_property.MSBuildProjectDirectory = C:\Users\Korisnik\Documents\GitHub\Tim32_Modern_home\ModernHome
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/Lockout.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/Lockout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGVsZXRlUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGlzYWJsZTJmYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRXh0ZXJuYWxMb2dpbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcR2VuZXJhdGVSZWNvdmVyeUNvZGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2hvd1JlY292ZXJ5Q29kZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1N0YXR1c01lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfU3RhdHVzTWVzc2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/Error.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Artikal/Create.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Artikal/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWthbFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Artikal/Delete.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Artikal/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWthbFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Artikal/Details.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Artikal/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWthbFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Artikal/Edit.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Artikal/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWthbFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Artikal/Index.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Artikal/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWthbFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Dimenzije/Create.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Dimenzije/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGltZW56aWplXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Dimenzije/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGltZW56aWplXERlbGV0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Dimenzije/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGltZW56aWplXERldGFpbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Dimenzije/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGltZW56aWplXEVkaXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Dimenzije/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGltZW56aWplXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Home/Index.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Home/Privacy.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Home/SviKorisnici.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Home/SviKorisnici.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdmlLb3Jpc25pY2kuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Home/SviKorisniciEdit.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Home/SviKorisniciEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdmlLb3Jpc25pY2lFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Kartica/Create.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Kartica/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FydGljYVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Kartica/Delete.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Kartica/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FydGljYVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Kartica/Details.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Kartica/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FydGljYVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Kartica/Edit.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Kartica/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FydGljYVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Kartica/Index.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Kartica/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FydGljYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Kartica/UspjesnoPlacanje.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Kartica/UspjesnoPlacanje.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FydGljYVxVc3BqZXNub1BsYWNhbmplLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Korpa/Create.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Korpa/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29ycGFcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Korpa/Delete.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Korpa/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29ycGFcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Korpa/Details.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Korpa/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29ycGFcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Korpa/Edit.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Korpa/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29ycGFcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Korpa/Index.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Korpa/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29ycGFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Narudzba/Create.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Narudzba/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFydWR6YmFcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Narudzba/Delete.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Narudzba/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFydWR6YmFcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Narudzba/Details.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Narudzba/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFydWR6YmFcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Narudzba/Edit.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Narudzba/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFydWR6YmFcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Narudzba/Index.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Narudzba/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFydWR6YmFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Narudzba/NemaNaStanju.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Narudzba/NemaNaStanju.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFydWR6YmFcTmVtYU5hU3Rhbmp1LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Ocjena/Create.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Ocjena/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NqZW5hXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Ocjena/Delete.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Ocjena/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NqZW5hXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Ocjena/Details.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Ocjena/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NqZW5hXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Ocjena/Edit.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Ocjena/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NqZW5hXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Ocjena/Index.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Ocjena/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NqZW5hXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Ocjena/OcijeniArtikal.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Ocjena/OcijeniArtikal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NqZW5hXE9jaWplbmlBcnRpa2FsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Ocjena/OcjeneArtikla.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Ocjena/OcjeneArtikla.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NqZW5hXE9jamVuZUFydGlrbGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Ocjena/OcjeneArtiklaNotLogged.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Ocjena/OcjeneArtiklaNotLogged.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NqZW5hXE9jamVuZUFydGlrbGFOb3RMb2dnZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Shared/Error.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/StavkaNarudzbe/Create.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/StavkaNarudzbe/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdmthTmFydWR6YmVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/StavkaNarudzbe/Delete.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/StavkaNarudzbe/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdmthTmFydWR6YmVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/StavkaNarudzbe/Details.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/StavkaNarudzbe/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdmthTmFydWR6YmVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/StavkaNarudzbe/Edit.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/StavkaNarudzbe/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdmthTmFydWR6YmVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/StavkaNarudzbe/Index.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/StavkaNarudzbe/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdmthTmFydWR6YmVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/_ViewImports.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/_ViewStart.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alilj/Desktop/ProjekatApp-OOAD/ModernHome/Views/Shared/_Layout.cshtml]
+[C:/Users/Korisnik/Documents/GitHub/Tim32_Modern_home/ModernHome/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ajyeqvw9sr

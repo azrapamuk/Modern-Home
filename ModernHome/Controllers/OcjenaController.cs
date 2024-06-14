@@ -89,6 +89,7 @@ namespace ModernHome.Controllers
 
         // GET: Ocjenas/OcijeniFilm/5
         [HttpGet]
+        [Authorize(Roles = "Korisnik")]
         public async Task<IActionResult> OcijeniArtikal(int? id)
         {
             var film = await _context.Artikal.FindAsync(id);

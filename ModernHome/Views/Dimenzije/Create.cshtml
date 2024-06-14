@@ -4,37 +4,37 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<body style="background-color:#C4A693;">
 
-<h4>Dimenzije</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
+    <div>
+        <a asp-controller="Artikal" asp-action="Create" style="color:#fff; text-decoration:none; font-size: 3vh;">← Nazad</a>
+    </div>
+
+    <div class="row" style="background-color:#fff; border-radius:12px; padding:1vw; justify-content:center;">
+        <h1 style="font-weight:bold;">Nove dimenzije</h1>
+        <hr />
+        <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="visina" class="control-label"></label>
+                <label asp-for="visina" class="control-label">Visina</label>
                 <input asp-for="visina" class="form-control" />
                 <span asp-validation-for="visina" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="sirina" class="control-label"></label>
+                <label asp-for="sirina" class="control-label">Širina</label>
                 <input asp-for="sirina" class="form-control" />
                 <span asp-validation-for="sirina" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="duzina" class="control-label"></label>
+                <label asp-for="duzina" class="control-label">Dužina</label>
                 <input asp-for="duzina" class="form-control" />
                 <span asp-validation-for="duzina" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                    <input type="submit" value="Dodaj nove dimenzije" class="btn btn-primary" style="background-color:#222222; color:#fff; border:none; font-size:3vh; margin-top:2vh;" />
             </div>
         </form>
     </div>
 </div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
+</body>

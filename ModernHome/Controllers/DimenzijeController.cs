@@ -63,7 +63,7 @@ namespace ModernHome.Controllers
             {
                 _context.Add(dimenzije);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Create","Artikal");
             }
             return View(dimenzije);
         }
