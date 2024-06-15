@@ -34,7 +34,8 @@ Modern Home je sveobuhvatna aplikacija za prodaju namještaja koja omogućava ko
 - Upravljanje sadržajem - upravljanje sadržajem na aplikaciji, uključujući dodavanje novih proizvoda, brisanje već postojećih, te ažuriranje cijena.
 
 ## Pristupni podaci:
-
+#### Baza podataka:
+-Konekcijski string: "Data Source=SQL5113.site4now.net;Initial Catalog=db_aa7f93_modernhome;User Id=db_aa7f93_modernhome_admin;Password=duga12345"
 #### Stranica:
 - URL: http://aljuka09-001-site1.ktempurl.com/
 - username: 11173779
