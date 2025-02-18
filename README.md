@@ -1,67 +1,36 @@
-# Modern home 
+# Modern Home
 
-## O aplikaciji
+## About the App
 
-Modern Home je sveobuhvatna aplikacija za prodaju namještaja koja omogućava korisnicima pregled, kupnju i upravljanje namještajem na jednostavan i intuitivan način. Ova aplikacija ističe se po svojoj prilagodljivosti, nudeći različite načine korištenja za korisnike, zaposlenike i administratore. Pruža korisnički prijateljski interfejs koji omogućava svim korisnicima ugodno iskustvo kupovine namještaja, dok istovremeno zaposlenicima olakšava posao i administratorima daje potrebne alate za učinkovito upravljanje poslovanjem.
+Modern Home is a comprehensive furniture sales application that enables users to browse, purchase, and manage furniture in a simple and intuitive way. This application stands out with its adaptability, offering various usage modes for users, employees, and administrators. It provides a user-friendly interface that ensures a pleasant shopping experience for all customers, while simultaneously making it easier for employees and providing administrators with the necessary tools to efficiently manage the business.
 
-<div>
-<img src="https://github.com/OOAD-2023-2024/Tim32_Modern_home/assets/148446321/9ca492cd-f051-48dd-b0f6-e35d7ac516cc" align="right" width="600" alt="Modern Home">
-</div>
+![ModernHome](https://github.com/user-attachments/assets/81081d0c-8484-446d-85b9-e25511ff34d4)
 
-## Akteri
+## Users
 
-- Registrovani korisnik
-- Zaposlenik
+- Registered User
+- Employee
 - Administrator
 
-## Funkcionalnosti
+## Features
 
-### Funkcionalnosti za korisnike:
+### Features for Users:
 
-- Pregled proizvoda - mogućnost istraživanja ​​različite kategorije namještaja, pregleda informacija o proizvodima i pregled slika iz različitih perspektiva.
-- Kupovina - sigurna kupovina namještaj putem aplikacije, odabirom željenih proizvoda, dodavanjem u korpu i provođenjem sigurne transakcije.
-- Recenzije i ocjene - ostavljanje recenzija na kupljenim proizvodima u svrhu pružanja dodatnih informacija drugim korisnicima.
+- Product Browsing - the ability to explore various categories of furniture, view product information, and see images from different angles.
+- Purchase - secure purchasing of furniture through the app, selecting desired products, adding them to the cart, and completing the transaction securely.
+- Reviews and Ratings - leaving reviews on purchased products to provide additional information to other users.
 
-### Funkcionalnosti za zaposlenike:
+### Features for Employees:
 
-- Upravljanje inventarom - pristup upravljanju inventarom, dodavanje novih proizvoda, ažuriranje informacija o postojećim proizvodima i praćenje stanja zaliha.
-- Detaljniji pregled proizvoda - mogućnost istraživanja ​​različite kategorije namještaja, pregleda detaljnih informacija o proizvodima, pregled količine artikala na stanju.
+- Inventory Management - access to inventory management, adding new products, updating information about existing products, and tracking stock levels.
+- Detailed Product Overview - the ability to explore various categories of furniture, view detailed product information, and check item availability.
 
-### Funkcionalnosti za administratore:
+### Features for Administrators:
 
-- Upravljanje korisničkim računima - upravljanje korisničkim računima, uključujući registraciju novih korisnika, upravljanje pristupom i rješavanje problema s računima.
-- Upravljanje narudžbama - upravljanje narudžbama, pregled ili brisanje narudžbi.
-- Upravljanje sadržajem - upravljanje sadržajem na aplikaciji, uključujući dodavanje novih proizvoda, brisanje već postojećih, te ažuriranje cijena.
+- User Account Management - managing user accounts, including registering new users, managing access, and resolving account-related issues.
+- Order Management - managing orders, reviewing, or deleting orders.
+- Content Management - managing the app content, including adding new products, deleting existing ones, and updating prices.
 
-## Pristupni podaci:
-#### Baza podataka:
--Konekcijski string: "Data Source=SQL5113.site4now.net;Initial Catalog=db_aa7f93_modernhome;User Id=db_aa7f93_modernhome_admin;Password=duga12345"
-#### Stranica:
-- URL: http://aljuka09-001-site1.ktempurl.com/
-- username: 11173779
-- password: 60-dayfreetrial
+![etflogo](https://github.com/user-attachments/assets/84248f72-85a1-43cd-8d76-c94c4a0968c6)
 
-#### Korisnik:
-- username: test@gmail.com
-- password: proba
-
-#### Zaposlenik:
-- username: pelto@yahoo.com
-- password: 12345
-
-#### Administrator:
-- username: admin@etf.unsa.ba
-- password: n-JPnvxYk.yef5G
-
-
-## Članovi tima
-- Ljaljak Ali
-- Ljaljak Amil
-- Pamuk Azra
-- Zolj Šaban
-
-<div>
-    <img src="https://github.com/OOAD-2023-2024/Tim32_Modern_home/assets/148446321/686e1dd5-f402-464e-9e5a-dbee41c9fe17" width="300" alt="etflogo">
-</div>
-
-©Copyright 2024. Elektrotehnički fakultet Sarajevo
+©Copyright 2024. Faculty of Electrical Engineering, Sarajevo
